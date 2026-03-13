@@ -22,7 +22,7 @@ Vi su negocio **[nombre del negocio]** y quería hacerle una consulta rápida.
 
 # 2. Contexto claro
 
-Nosotros ayudamos a comercios a **ordenar su venta online con una tienda profesional**.
+Nosotros ayudamos a vinotecas a **ordenar su venta online con una tienda profesional**.
 
 No es una página institucional.
 
