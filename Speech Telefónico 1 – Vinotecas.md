@@ -18,7 +18,7 @@ Tenes un minuto para que te cuente cual es nuestro producto?
 
 Nosotros ayudamos a vinotecas a **ordenar su venta online con una tienda profesional**.
 
-Lo que hacemos es la tienda online con carrito de compras, el .com.ar de la vinoteca
+Lo que hacemos es la tienda online con carrito de compras, el .com.ar de la vinoteca.
 
 Muchos clientes que compran vinos quieren **mirar tranquilo qué vinos hay disponibles** antes de decidir.
 
@@ -35,7 +35,6 @@ Lo que hacemos nosotros es **crear una tienda online**. Ahí el cliente puede ve
 Los vinos  
 Los precios  
 Las bodegas  
-Cualquier detalle extra que ustedes quieran agregar
 Filtrar los vinos por categorias
 Seleccionar los vinos que le interesan
 
@@ -47,7 +46,9 @@ Cuando el cliente quiere comprar, **el pedido termina en el WhatsApp de la vinot
 
 Te cuento ahora sobre el **Precio** del servicio
 
-Tiene un **setup inicial que se paga por unica vez** de $50.000 donde diseñamos la tienda y la dejamos funcionando.
+Se divide en dos:
+
+Por un lado tiene **setup inicial y que se paga por unica vez** de $50.000 donde diseñamos la tienda y la dejamos funcionando.
 
 Y después **$8.900 por mes**, que incluye hosting, mantenimiento y soporte.
 
@@ -60,5 +61,3 @@ Se ve muy claro cómo se muestran las botellas y las categorías de vino.
 Si quiere, se la paso por WhatsApp.
 
 La mira tranquilo y después lo volvemos a hablar.
-
-vinotecabellavista@gmail.com
