@@ -1,4 +1,5 @@
 # Speech Telefónico – Contacto desde Google Maps
+
 Servicio: Andes eCommerce – Tienda online profesional en 24 horas  
 Objetivo: Diagnosticar rápido, detectar necesidad y avanzar a demo o envío de información.
 
@@ -18,7 +19,7 @@ Vi su negocio **[nombre del negocio]** y quería hacerle una consulta rápida.
 
 ¿Tiene un minuto?
 
---- 
+---
 
 # 2. Contexto claro
 
