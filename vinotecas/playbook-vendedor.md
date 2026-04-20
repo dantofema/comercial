@@ -24,7 +24,6 @@ Perfil ideal:
 Perfil a descartar rápido:
 
 └─ Ya tiene sitio funcionando con catálogo cargado (raro, pero pasa)
-└─ Solo venta mayorista B2B sin interés en retail
 └─ No contesta después de 2 intentos en días distintos
 
 ## 4. Por qué nos eligen
