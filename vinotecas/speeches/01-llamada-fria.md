@@ -62,7 +62,7 @@ Muchas vinotecas están en esa. El problema siempre es el mismo: cargar los prod
 
 La tienda queda lista en 24 horas.
 
-El cliente ve los vinos, los filtra por bodega, tipo, precio. Arma su pedido. El pedido te llega a tu WhatsApp, como venís trabajando. Ahí coordinás entrega y pago.
+El cliente ve los vinos, los filtra por tipo, los ordena por precio. Arma su pedido. El pedido te llega a tu WhatsApp, como venís trabajando. Ahí coordinás entrega y pago.
 
 Y además, tu tienda queda con dominio .com.ar propio, aparece en Google, con hosting y soporte incluidos.
 
