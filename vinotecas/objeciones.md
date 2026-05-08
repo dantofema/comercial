@@ -57,6 +57,20 @@ Está bien. Enviar (ver `speeches/02-envio-demo.md`):
 - Precio
 - Agendar llamada en el mismo mensaje
 
+## "Trabajo con bodegas chicas / de nicho, no van a estar en su catálogo"
+
+Respuesta:
+
+> "Tenés razón, el catálogo base son las principales bodegas argentinas. Pero **agregar vinos fuera del catálogo es sin costo** y lo hacés vos desde el panel: nombre, foto, descripción, precio. En minutos lo subís."
+
+Si insiste:
+
+> "Mirá, lo que te ahorramos son los 2000 vinos de las bodegas grandes — Catena, Rutini, Trapiche, Salentein, etc. — que igual seguro vendés. Tu nicho lo cargás vos, que es donde está tu diferencial. Mejor de los dos mundos: catálogo amplio listo + tus exclusivas con el control que necesitás."
+
+Si pregunta cuánto tarda cargar uno propio:
+
+> "2-3 minutos por vino si tenés foto. Si no tenés foto, sacás una con el celular y listo."
+
 ## "Ahora no, llamame en un mes"
 
 Respuesta:
