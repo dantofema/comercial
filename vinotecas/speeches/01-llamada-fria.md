@@ -70,15 +70,17 @@ Y además, tu tienda queda con dominio .com.ar propio, aparece en Google, con ho
 
 ## 6. Precio
 
-Te cuento el precio.
+Te cuento el precio. Hoy estamos con una promo: **50% OFF de por vida**.
 
-Se divide en dos:
+Se divide en dos, y **ambos se cobran siempre**:
 
-Un **setup único de $75.000**. Ahí entra todo: el diseño, la configuración, los 2000 vinos cargados con fotos, el dominio .com.ar, y dejar el sitio publicado en 24 horas.
+Un **setup único de $145.000** (precio base $290.000). Ahí entra todo: el diseño, la configuración, los 2000 vinos cargados con fotos, el dominio .com.ar, y dejar el sitio publicado en 24 horas.
 
-Y después **$18.900 por mes**, que incluye hosting, mantenimiento y soporte.
+Y después **$36.250 por mes** (precio base $72.500), que incluye hosting, mantenimiento y soporte.
 
-Sin permanencia. Cancelás cuando quieras desde Mercado Pago.
+El 50% OFF lo **mantenés de por vida** mientras seas cliente activo y al día. No expira.
+
+Sin permanencia. Cancelás cuando quieras desde Mercado Pago (si cancelás, perdés la promo de por vida).
 
 ---
 
@@ -110,6 +112,6 @@ Perfecto. Ahora te mando el link.
 
 └─ No leer monótono. Pausas naturales.
 └─ Después de preguntar, **callate y esperá respuesta**.
-└─ Precio siempre completo: "$75.000 setup y $18.900 por mes". Nunca dar solo uno.
+└─ Precio siempre completo: "$145.000 setup y $36.250 por mes, con 50% OFF de por vida". Nunca dar solo uno.
 └─ Si el cliente interrumpe con objeción → ir a `objeciones.md`.
 └─ Si no quiere avanzar → agendar fecha concreta igual ("¿te llamo en un mes?").

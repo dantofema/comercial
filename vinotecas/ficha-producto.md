@@ -6,16 +6,18 @@ Referencia rápida. Tener abierto durante llamadas.
 
 - Producto: Andes para Vinotecas
 - Empresa: DantoFema
-- Demo en vivo: https://reservaurbana.dantofema.ar
+- Demo en vivo: https://demo-vinoteca.dantofema.ar
 - Landing: https://dantofema.ar/vinotecas
 - Contacto: +54 911 6127-4482 (WhatsApp)
 
-## Precio
+## Precio (promo 50% OFF de por vida)
 
-- Setup único: $75.000
-- Mensual: $18.900
-- Forma de pago: Mercado Pago (setup + suscripción)
-- Sin permanencia mínima
+- Setup único: **$145.000** (precio base $290.000)
+- Mensual: **$36.250/mes** (precio base $72.500/mes)
+- Ambos se cobran siempre — no hay plan solo-setup ni solo-mensual.
+- 50% OFF se mantiene **de por vida** mientras el cliente esté activo y al día.
+- Forma de pago: Mercado Pago (setup pago único + suscripción mensual)
+- Sin permanencia mínima. Si cancela, pierde la promo de por vida.
 
 ## Qué incluye
 

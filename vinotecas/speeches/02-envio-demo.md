@@ -13,13 +13,15 @@ Hola [NOMBRE], soy [VENDEDOR] de Andes para Vinotecas.
 
 Como charlamos, te paso la demo para que la mires tranquilo:
 
-👉 Demo: https://reservaurbana.dantofema.ar
+👉 Demo: https://demo-vinoteca.dantofema.ar
 👉 Info: https://dantofema.ar/vinotecas
 
 Lo importante:
 - Más de 2000 vinos ya cargados con foto
 - El pedido te llega a tu WhatsApp
-- Setup $75.000 + $18.900/mes (sin permanencia)
+- Setup $145.000 + $36.250/mes con 🔥 50% OFF DE POR VIDA (precio base $290.000 + $72.500/mes)
+- Ambos se cobran siempre. Mantenés el 50% OFF de por vida mientras seas cliente activo
+- Sin permanencia
 - En 24 hs tu tienda publicada
 
 Te llamo el [DIA] a las [HORA] para ver qué te parece. Cualquier duda, me escribís por acá.
@@ -42,7 +44,7 @@ Hola [NOMBRE],
 
 Soy [VENDEDOR] de Andes. Como charlamos por teléfono, te paso la demo de tienda online para vinotecas para que la veas tranquilo.
 
-Demo en vivo: https://reservaurbana.dantofema.ar
+Demo en vivo: https://demo-vinoteca.dantofema.ar
 Info del servicio: https://dantofema.ar/vinotecas
 
 Puntos clave:
@@ -52,11 +54,12 @@ Puntos clave:
 - Dominio .com.ar propio, hosting, mantenimiento y soporte incluidos.
 - Publicación en 24 horas desde que tenemos tus datos.
 
-Precio:
+Precio (promo 50% OFF de por vida):
 
-- Setup único: $75.000
-- Mensual: $18.900
-- Sin permanencia, cancelás desde Mercado Pago cuando quieras.
+- Setup único: $145.000 (precio base $290.000)
+- Mensual: $36.250 (precio base $72.500)
+- Ambos cargos se cobran siempre. El 50% OFF se mantiene de por vida mientras seas cliente activo y al día.
+- Sin permanencia, cancelás desde Mercado Pago cuando quieras (si cancelás, perdés la promo).
 
 Te llamo el [DIA] a las [HORA] para ver qué te pareció.
 

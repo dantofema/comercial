@@ -1,6 +1,6 @@
 # Speech 04 — Onboarding post-pago
 
-Se ejecuta apenas se cobra el setup ($75.000) en Mercado Pago. Objetivo: recolectar todos los datos para que el dueño/dev publique el sitio en 24 horas.
+Se ejecuta apenas se cobra el setup ($145.000, promo 50% OFF de por vida) en Mercado Pago. Objetivo: recolectar todos los datos para que el dueño/dev publique el sitio en 24 horas.
 
 ---
 
@@ -114,5 +114,5 @@ Objetivo: mostrar cómo usar el panel. Cubrir:
 Avisar al cliente:
 
 - Por cualquier duda de uso, me escribís a mí directamente.
-- Cobro mensual arranca automáticamente desde Mercado Pago.
+- Cobro mensual ($36.250 con 50% OFF de por vida) arranca automáticamente desde Mercado Pago. Mantené la suscripción activa y al día para conservar el descuento.
 - Cualquier cambio grande (diseño, integración), lo cotizamos aparte.

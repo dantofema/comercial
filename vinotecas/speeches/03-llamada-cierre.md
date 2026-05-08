@@ -27,7 +27,7 @@ La idea es justamente esa: que los clientes miren los vinos tranquilos, y cuando
 Tranquilo, la pasamos de nuevo juntos:
 
 ```
-https://reservaurbana.dantofema.ar
+https://demo-vinoteca.dantofema.ar
 ```
 
 ¿La podés abrir ahora un minuto? Te cuento mientras la mirás.
@@ -71,11 +71,13 @@ Para empezar solo necesitamos:
 
 ## 6. Recordatorio de precio
 
-Como te había comentado:
+Como te había comentado, hoy estamos con **50% OFF de por vida**:
 
-└─ Setup único de **$75.000** para crear la tienda
-└─ **$18.900 por mes** que incluye hosting, mantenimiento y soporte
-└─ Sin permanencia, cancelás desde Mercado Pago cuando quieras
+└─ Setup único de **$145.000** (base $290.000) para crear la tienda
+└─ **$36.250 por mes** (base $72.500) que incluye hosting, mantenimiento y soporte
+└─ Ambos cargos se cobran siempre
+└─ El 50% OFF lo mantenés **de por vida** mientras seas cliente activo y al día
+└─ Sin permanencia, cancelás desde Mercado Pago cuando quieras (si cancelás, perdés la promo)
 
 ---
 
@@ -85,8 +87,8 @@ Si te parece, arrancamos hoy:
 
 Te mando por WhatsApp **dos links de Mercado Pago**:
 
-- Uno por el setup de $75.000
-- Otro por la suscripción mensual de $18.900
+- Uno por el setup de $145.000
+- Otro por la suscripción mensual de $36.250
 
 Pagás el setup, confirmo conmigo por WhatsApp, y mañana mismo arrancamos a armar la tienda. En 24 horas tenés tu sitio publicado.
 

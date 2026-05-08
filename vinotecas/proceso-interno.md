@@ -4,15 +4,17 @@ Solo para vendedor y dueño. No se comparte con cliente.
 
 ## Cobros (Mercado Pago)
 
-- Setup $75.000: link de pago único generado por el dueño. Vendedor lo pide al dueño tras acuerdo verbal con cliente.
-- Mensualidad $18.900: link de suscripción MP, también generado por dueño. Se envía al cliente junto al setup o inmediatamente después del cobro.
+- Setup $145.000 (precio base $290.000, 50% OFF promo de por vida): link de pago único generado por el dueño. Vendedor lo pide al dueño tras acuerdo verbal con cliente.
+- Mensualidad $36.250 (precio base $72.500, 50% OFF promo de por vida): link de suscripción MP, también generado por dueño. Se envía al cliente junto al setup o inmediatamente después del cobro.
+- Ambos cargos se cobran siempre. No hay plan solo-setup ni solo-mensual.
+- Descuento 50% se mantiene de por vida mientras cliente esté activo y al día con la suscripción. Si cancela y vuelve, se cotiza al precio vigente.
 - Cliente cancela su suscripción desde su cuenta Mercado Pago. Al cancelar, se da de baja el sitio.
 
 ## Comisión del vendedor
 
-- Monto: $50.000 por venta cerrada.
-- Disparador: **cobro del setup confirmado** en Mercado Pago.
-- Vendedor avisa al dueño cuando cliente confirma transferencia, pero la comisión se liquida cuando el pago figura efectivamente en MP.
+- Monto: $125.000 por venta cerrada.
+- Disparador: **setup cobrado + suscripción mensual activa** en Mercado Pago. Ambas condiciones requeridas.
+- Vendedor avisa al dueño cuando cliente confirma transferencia, pero la comisión se liquida cuando setup figura cobrado y la suscripción mensual figura activa en MP.
 
 ## Ticket de solicitud (cuando vendedor escala)
 

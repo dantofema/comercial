@@ -24,7 +24,11 @@ Sí, tenés tu dominio .com.ar. La gestión está incluida en el mantenimiento m
 
 ## 6. ¿Puedo cancelar cuando quiera?
 
-Sí, sin permanencia. La suscripción la manejás vos desde Mercado Pago. Cuando cancelás la suscripción, se da de baja el sitio.
+Sí, sin permanencia. La suscripción la manejás vos desde Mercado Pago. Cuando cancelás la suscripción, se da de baja el sitio. Tené en cuenta que si cancelás perdés el 50% OFF de por vida; si querés volver, se cotiza al precio vigente.
+
+## 6.b ¿El precio promocional sube después?
+
+No. Si te suscribís durante la promo, mantenés $36.250/mes **de por vida** mientras seas cliente activo y al día. El descuento del 50% no expira.
 
 ## 7. ¿Funciona con mi sistema de stock actual?
 

@@ -17,13 +17,14 @@ Documentación orientada a venta del vertical vinotecas.
 
 ## Links clave
 
-- Demo vinoteca: https://reservaurbana.dantofema.ar
+- Demo vinoteca: https://demo-vinoteca.dantofema.ar
 - Landing: https://dantofema.ar/vinotecas
 - WhatsApp: +54 911 6127-4482
 
-## Precio
+## Precio (promo 50% OFF de por vida)
 
-- Setup único: $75.000
-- Mensual: $18.900
+- Setup único: $145.000 (base $290.000)
+- Mensual: $36.250 (base $72.500)
+- Ambos se cobran siempre. Descuento del 50% se mantiene de por vida mientras cliente esté activo y al día.
 
 Cobro 100% por Mercado Pago.

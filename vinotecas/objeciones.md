@@ -26,7 +26,7 @@ Si lleva más de 1 mes:
 
 Respuesta:
 
-> "Te lo desgloso. El setup es único, $75.000, y ahí entra todo: diseño, configuración, los 2000 vinos con fotos cargados, dominio .com.ar, publicación en 24 horas. Cargar 2000 vinos manualmente con fotos lleva meses de trabajo. Después $18.900 por mes que incluye hosting, mantenimiento y soporte. Sin permanencia."
+> "Te lo desgloso. Hoy estás en promo: 50% OFF de por vida. Setup único $145.000 (base $290.000) y ahí entra todo: diseño, configuración, los 2000 vinos con fotos cargados, dominio .com.ar, publicación en 24 horas. Cargar 2000 vinos manualmente con fotos lleva meses. Después $36.250 por mes (base $72.500) con hosting, mantenimiento y soporte. El 50% OFF lo mantenés de por vida mientras seas cliente activo. Sin permanencia."
 
 ## "No tengo tiempo ahora"
 

@@ -40,16 +40,16 @@ Tres puntos, en este orden de importancia:
 2. Llamada fría con `speeches/01-llamada-fria.md` — objetivo: conseguir WhatsApp y mandar demo
 3. Enviar demo con `speeches/02-envio-demo.md` — agendar fecha de segunda llamada en el mismo mensaje
 4. Llamada de cierre con `speeches/03-llamada-cierre.md` — usar `objeciones.md` ante rechazo
-5. Acuerdo verbal → enviar link de Mercado Pago del setup ($75.000)
+5. Acuerdo verbal → enviar links de Mercado Pago: setup ($145.000) + suscripción mensual ($36.250)
 6. Cobro setup confirmado → onboarding con `speeches/04-onboarding.md`
-7. Publicación en 24 horas → arranca suscripción mensual MP ($18.900)
+7. Publicación en 24 horas → arranca suscripción mensual MP ($36.250 con 50% OFF de por vida)
 8. Post-venta continua (ver sección 7)
 
 ## 6. Cómo cobrás vos
 
-**Comisión: $50.000 por venta cerrada.**
+**Comisión: $125.000 por venta cerrada.**
 
-Se paga cuando se cobra el setup del cliente (no cuando hay acuerdo verbal, no cuando arranca la suscripción mensual). Setup cobrado = comisión liquidada.
+Se paga cuando el cliente **pagó el setup Y se suscribió al plan mensual** en Mercado Pago. Ambas condiciones cumplidas = comisión liquidada. Acuerdo verbal solo no dispara comisión.
 
 ## 7. Tu rol post-venta
 
