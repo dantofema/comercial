@@ -38,31 +38,37 @@ Sin estas definiciones los números no son comparables entre días.
 **Leads nuevos contactados (18 a 31)**
 
 └─ Cuenta: primer contacto del día con una vinoteca que no estaba en el pipeline. El estado pasa de inexistente a "Contactado".
+
 └─ No cuenta: re-contactar un lead que ya está en pipeline (eso es seguimiento), lead extraído de Google Maps pero no contactado todavía, segundo intento al mismo lead el mismo día.
 
 **Intentos de llamada (25 a 50)**
 
 └─ Cuenta: llamada saliente que efectivamente discó y sonó al menos una vez, sin importar el resultado (no atendieron, ocupado, buzón, atendió empleado).
+
 └─ No cuenta: marcar y cortar antes de que suene, número equivocado detectado al primer tono, llamadas fuera de horario comercial del prospecto, dos intentos al mismo número con menos de 30 minutos entre medio.
 
 **Conversaciones reales (6 a 13)**
 
 └─ Cuenta: llamada donde hablaste con dueño / encargado / quien decide durante al menos 30 segundos, escuchaste cómo vende hoy o presentaste Andes.
+
 └─ No cuenta: hablar con empleado de mostrador que solo toma mensaje, "el dueño no está", confirmar que el número existe, cortar a los 5 segundos.
 
 **Demos enviadas (4 a 6)**
 
 └─ Cuenta: link de la demo enviado por WhatsApp o email a un contacto identificado, después de una conversación real, usando el speech `speeches/02-envio-demo.md`.
+
 └─ No cuenta: mandar el link en frío sin llamada previa, reenviar la demo a alguien que ya la recibió, enviarla a un empleado que prometió "pasársela al dueño".
 
 **Seguimientos realizados (6 a 13)**
 
 └─ Cuenta: contacto outbound a un lead en pipeline con estado "Demo enviada", "Seguimiento" o "Esperando decisión", donde hablaste o dejaste un mensaje con propósito (preguntar por la demo, sumar un caso, definir próximo paso).
+
 └─ No cuenta: "hola, ¿cómo estás?" sin objetivo, dos seguimientos el mismo día al mismo lead, contactar un lead en estado "Nuevo" (eso es lead nuevo) o "Perdido".
 
 **Próximos pasos agendados (2 a 4)**
 
 └─ Cuenta: lead con día y hora concretos confirmados por él para la próxima acción (llamada de cierre, decisión, onboarding). Queda registrado en pipeline con la fecha.
+
 └─ No cuenta: "te llamo la semana que viene" sin día y hora, "te mando WhatsApp en cualquier momento", próximo paso definido por vos pero no confirmado por el lead.
 
 ---
