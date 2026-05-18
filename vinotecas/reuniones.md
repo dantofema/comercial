@@ -10,12 +10,14 @@ Tres ritmos de trabajo, simples. No hace falta saber de metodologías. La idea: 
 **Dónde:** WhatsApp, al grupo o chat directo conmigo.
 **Cuánto te lleva:** 2 minutos.
 
+**Objetivos de referencia:** los números de ayer y los de hoy se comparan contra los objetivos diarios definidos en `objetivos-vendedor.md` §2. Si quedaste corto, lo decís en el daily — sin justificarte de más.
+
 **Plantilla (copiás y completás):**
 
 ```
 Daily [fecha]
-- Ayer: [qué hiciste: cuántas llamadas, demos enviadas, cierres, onboardings]
-- Hoy: [qué vas a hacer]
+- Ayer: [llamadas / conversaciones / demos / cierres] — vs objetivo
+- Hoy: [plan concreto + meta del día]
 - Bloqueos: [algo que te traba o ninguno]
 ```
 
@@ -23,12 +25,15 @@ Daily [fecha]
 
 ```
 Daily 21/04
-- Ayer: 12 llamadas, 3 demos enviadas, 1 cierre agendado para jueves
-- Hoy: llamar 15 leads nuevos de Córdoba, cierre con La Cava a las 16
+- Ayer: 28 llamadas (obj 25-50), 8 conversaciones (obj 6-13), 4 demos (obj 4-6), 1 cierre agendado jueves
+- Hoy: 20 leads nuevos de Córdoba, apuntar 5 demos, cierre con La Cava 16hs
 - Bloqueos: el cliente de Rosario pide factura A, ¿cómo lo manejamos?
 ```
 
-**Regla:** si hay bloqueo, lo resolvemos ese mismo día. No esperes al lunes.
+**Reglas:**
+
+└─ Si hay bloqueo, lo resolvemos ese mismo día. No esperes al lunes.
+└─ Dos dailies seguidos por debajo del piso diario → lo charlamos antes del 1:1.
 
 ---
 
