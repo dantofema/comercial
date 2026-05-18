@@ -75,5 +75,7 @@ Saludos,
 ## Reglas
 
 └─ Siempre cerrar con día y hora concretos de segunda llamada. Nunca "te llamo en unos días".
+
 └─ Si el cliente responde con pregunta antes de la segunda llamada → responder con la respuesta del `faq.md`, nunca improvisar.
+
 └─ No mandar PDFs ni adjuntos pesados. Solo los 2 links.

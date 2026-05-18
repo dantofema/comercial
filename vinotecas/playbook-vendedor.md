@@ -17,13 +17,17 @@ La tienda arranca con **más de 2000 vinos precargados con fotos profesionales**
 Perfil ideal:
 
 └─ Vinotecas que venden por WhatsApp / Instagram / Facebook
+
 └─ Sin sitio web propio, o con sitio propio estancado hace meses
+
 └─ Dueño disponible para atender teléfono (no grandes cadenas)
+
 └─ Zona AMBA o interior con envíos propios / cadete
 
 Perfil a descartar rápido:
 
 └─ Ya tiene sitio funcionando con catálogo cargado (raro, pero pasa)
+
 └─ No contesta después de 2 intentos en días distintos
 
 ## 4. Por qué nos eligen
@@ -58,23 +62,33 @@ Sos el contacto único del cliente.
 Qué tenés que hacer:
 
 └─ Responder consultas de uso por WhatsApp
+
 └─ Ayudar a cargar/habilitar vinos cuando el cliente necesite
+
 └─ Tomar solicitudes (cambios, dudas, pedidos nuevos) y **crear la tarea** (ver `proceso-interno.md`)
+
 └─ Mantener la relación: el cliente te llama a vos
 
 Qué NO hacés:
 
 └─ Cambios técnicos en el sitio (lo hace el dueño / dev)
+
 └─ Cotizar integraciones (stock, envíos, pagos online) → pasás el pedido al dueño
+
 └─ Prometer features que no están en `ficha-producto.md`
 
 ## 8. Qué NO prometer nunca
 
 └─ Pagos online integrados (MP, tarjeta) en el checkout — NO los hay por defecto
+
 └─ Módulo de stock — NO existe
+
 └─ Integraciones con sistemas contables / ERP — NO por defecto
+
 └─ Envíos automatizados — NO por defecto
+
 └─ Fechas de publicación menores a 24 horas
+
 └─ Descuentos sobre el precio sin consultar al dueño
 
 Ante duda: "Eso lo consulto y te confirmo en el día." Mejor eso que prometer mal.
@@ -84,7 +98,11 @@ Ante duda: "Eso lo consulto y te confirmo en el día." Mejor eso que prometer ma
 Dueño: Alejandro. Lo escalás cuando:
 
 └─ Pide cotización de integración (stock, envíos, pagos, ERP)
+
 └─ Reporta un bug o error del sitio
+
 └─ Pide descuento o condición especial de precio
+
 └─ Cliente grande (cadena, franquicia) — prospecto distinto al perfil ideal
+
 └─ Cualquier pedido fuera de `ficha-producto.md`

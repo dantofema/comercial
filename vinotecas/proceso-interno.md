@@ -36,9 +36,13 @@ Canal: WhatsApp directo al dueño.
 Ver sección 9 del `playbook-vendedor.md`. Resumen:
 
 └─ Cotizaciones (stock, envíos, pagos online, ERP)
+
 └─ Bugs técnicos
+
 └─ Pedidos de descuento
+
 └─ Clientes grandes (cadena, franquicia)
+
 └─ Cualquier cosa fuera de la ficha de producto
 
 ## SLA respuesta al cliente

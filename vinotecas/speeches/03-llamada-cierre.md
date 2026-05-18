@@ -63,8 +63,11 @@ Nosotros nos encargamos de armar todo: diseño, configuración, los 2000 vinos y
 Para empezar solo necesitamos:
 
 └─ Nombre de la vinoteca
+
 └─ Logo (si tenés, sino lo armamos)
+
 └─ Dirección y teléfono
+
 └─ WhatsApp donde querés recibir los pedidos
 
 ---
@@ -74,9 +77,13 @@ Para empezar solo necesitamos:
 Como te había comentado, hoy estamos con **50% OFF de por vida**:
 
 └─ Setup único de **$145.000** (base $290.000) para crear la tienda
+
 └─ **$36.250 por mes** (base $72.500) que incluye hosting, mantenimiento y soporte
+
 └─ Ambos cargos se cobran siempre
+
 └─ El 50% OFF lo mantenés **de por vida** mientras seas cliente activo y al día
+
 └─ Sin permanencia, cancelás desde Mercado Pago cuando quieras (si cancelás, perdés la promo)
 
 ---
@@ -121,6 +128,9 @@ Mientras tanto, si te surge cualquier duda me escribís por WhatsApp.
 ## Reglas del cierre
 
 └─ **Nunca ofrecer descuento** sin consultar al dueño antes.
+
 └─ Cerrar con pregunta cerrada: "¿avanzamos?" no "¿qué te parece?".
+
 └─ Si hay 2 objeciones en la misma llamada, cortar con agenda de próxima llamada. No insistir 3 veces.
+
 └─ Precio siempre completo: setup + mensual juntos.

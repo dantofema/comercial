@@ -40,7 +40,9 @@ Cuando tengas todo, me lo pasás junto. Arranco apenas lo tenga.
 Cuando el cliente manda datos:
 
 └─ Leer todos. Confirmar que no falta nada.
+
 └─ Si falta algo, pedir solo lo que falta (no volver a pedir todo).
+
 └─ Confirmar: "Recibido todo. Arranco ahora. Te aviso cuando esté listo el sitio para que lo veas."
 
 ---
@@ -71,6 +73,7 @@ Prioridad: alta
 ## 5. Durante las 24 horas
 
 └─ No prometer hora exacta. Decir: "En las próximas 24 horas lo tenés."
+
 └─ Si el cliente pregunta, tranquilizar: "Está en proceso, te aviso cuando esté publicado."
 
 ---
@@ -101,10 +104,15 @@ Te llamo mañana para hacer un recorrido juntos del panel y que empieces a habil
 Objetivo: mostrar cómo usar el panel. Cubrir:
 
 └─ Login
+
 └─ Cómo habilitar vinos (uno por uno y en bulk)
+
 └─ Cómo agregar un vino nuevo fuera del catálogo base
+
 └─ Cómo editar precios
+
 └─ Dónde ver los pedidos entrantes
+
 └─ Cómo responde el WhatsApp cuando llega un pedido
 
 ---

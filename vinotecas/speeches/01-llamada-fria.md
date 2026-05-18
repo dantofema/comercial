@@ -111,7 +111,11 @@ Perfecto. Ahora te mando el link.
 ## Reglas de la llamada
 
 └─ No leer monótono. Pausas naturales.
+
 └─ Después de preguntar, **callate y esperá respuesta**.
+
 └─ Precio siempre completo: "$145.000 setup y $36.250 por mes, con 50% OFF de por vida". Nunca dar solo uno.
+
 └─ Si el cliente interrumpe con objeción → ir a `objeciones.md`.
+
 └─ Si no quiere avanzar → agendar fecha concreta igual ("¿te llamo en un mes?").

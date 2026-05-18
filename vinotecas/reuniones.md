@@ -33,6 +33,7 @@ Daily 21/04
 **Reglas:**
 
 └─ Si hay bloqueo, lo resolvemos ese mismo día. No esperes al lunes.
+
 └─ Dos dailies seguidos por debajo del piso diario → lo charlamos antes del 1:1.
 
 ---
