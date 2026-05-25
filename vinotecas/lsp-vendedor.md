@@ -1,163 +1,210 @@
-# LSP — Límite máximo de pago a un vendedor (Andes Vinotecas)
+# LSP — Modelo de pago al vendedor y rentabilidad (Andes Vinotecas)
 
-Modelo de unit economics para responder: **¿el negocio banca un vendedor a $1.500.000/mes?**
+Unit economics del rol comercial con esquema **fijo + comisión**, target **6 ventas/mes**.
+Responde dos preguntas:
 
-Cuatro salidas del mismo modelo: LTV por cliente, punto de equilibrio, LSP (pago máximo) y CAC sostenible. Enfoque steady-state (régimen): el negocio se modela ya con base de clientes recurrentes funcionando.
+1. ¿El esquema $250.000 fijo + comisión banca un OTE de $1.500.000 al vendedor?
+2. ¿En cuántos meses el negocio me deja **$1.500.000/mes a mí** (dueño)?
+
+Enfoque steady-state (régimen) + rampa mes a mes desde cero.
 
 ---
 
 ## 1. Supuestos e inputs
 
-Precios del vertical (`README.md`, promo 50% OFF de por vida):
+Precios (`README.md`, promo 50% OFF de por vida):
 
 └─ Setup único: $145.000
 
 └─ Mensual: $36.250
 
-Neto de comisión Mercado Pago (6%, acreditación inmediata):
+Neto de comisión Mercado Pago (6%):
 
-└─ Setup neto: $145.000 × 0,94 = **$136.300**
+└─ Setup neto: **$136.300**
 
-└─ Mensual neto: $36.250 × 0,94 = **$34.075**
+└─ Mensual neto: **$34.075**
 
-Costos:
+Estructura del vendedor:
 
-└─ Sueldo vendedor: **$1.500.000/mes**
+└─ Fijo garantizado: **$250.000/mes**
 
-└─ Infra (1 droplet DigitalOcean, hostea varios clientes): **~$20.000/mes** fijo
+└─ Comisión variable: % del setup + % del recurrente (ver §2)
 
-└─ Costo variable por cliente: ≈ $0 (infra no escala por venta)
+└─ OTE (on-target earnings) a 6 ventas/mes en régimen: **~$1.500.000**
 
-└─ **Costo fijo mensual total: $1.520.000**
+Otros costos:
 
-Variables del modelo:
+└─ Infra (1 droplet, hostea varios clientes): **~$20.000/mes** fijo
 
-└─ **L** = vida media del cliente en meses (sin dato real → escenarios 6 / 12 / 24)
+└─ Costo variable por cliente: ≈ $0
 
-└─ **V** = ventas nuevas cerradas por mes
+Variables:
 
-Identidad central (régimen):
+└─ **V** = ventas nuevas/mes = **6** (target fijo de este doc)
 
-> Con vida media L y V ventas/mes, la base activa se estabiliza en **N = V × L** clientes (entradas V = salidas N/L). El recurrente acumulado más los setups nuevos colapsan en:
->
-> **Ingreso mensual = V × LTV(L)**
+└─ **L** = vida media del cliente en meses (sin dato real; ramp asume L ≥ 12)
 
 ---
 
-## 2. LTV neto por cliente
+## 2. Esquema de comisión
 
-Setup neto + (mensual neto × L):
+Comisión sobre el monto **facturado** (bruto), pagada al vendedor:
 
-LTV(L) = 136.300 + 34.075 × L
+└─ Por cierre nuevo: **60% del setup = $87.000**
 
-└─ L = 6 meses: **$340.750**
+└─ Por cliente activo, cada mes: **28% del mensual = $10.150**
 
-└─ L = 12 meses: **$545.200**
+Calibración a régimen (V=6, base 72 clientes activos):
 
-└─ L = 24 meses: **$954.100**
+└─ Comisión por setups: 6 × $87.000 = **$522.000/mes**
 
----
+└─ Comisión por recurrente: 72 × $10.150 = **$730.800/mes**
 
-## 3. Punto de equilibrio
+└─ Variable total: **$1.252.800** + fijo $250.000 = **$1.502.800 ≈ OTE $1.5M** ✓
 
-Ventas/mes mínimas para cubrir el fijo de $1.520.000:
-
-V_eq = 1.520.000 / LTV(L)
-
-└─ L = 6m: **~4,5 ventas/mes** → base ~27 clientes activos
-
-└─ L = 12m: **~2,8 ventas/mes** → base ~34 clientes activos
-
-└─ L = 24m: **~1,6 ventas/mes** → base ~38 clientes activos
-
-A más vida del cliente, menos ventas nuevas hacen falta: el recurrente sostiene el sueldo.
+**Nota:** los porcentajes son altos (60% del setup) porque el precio de setup es bajo
+frente a un OTE de $1,5M con solo 6 ventas. El recurrente (28%) premia retención: el
+vendedor cobra mientras el cliente siga activo, alineando su interés con el churn bajo.
+Subir el precio de setup permitiría bajar el % de comisión. Ambos % son perillas ajustables.
 
 ---
 
-## 4. LSP — pago máximo al vendedor
+## 3. LTV y equilibrio (referencia)
 
-Pago máximo sostenible = ingreso mensual − infra − margen deseado.
+LTV neto por cliente = 136.300 + 34.075 × L:
 
-Con margen cero: **LSP = V × LTV(L) − $20.000**
+└─ L = 6m: $340.750  ·  L = 12m: $545.200  ·  L = 24m: $954.100
 
-Escenario vida 12m, ingreso = V × $545.200:
-
-└─ V = 2/mes → ingreso $1.090.400 → **NO banca $1.5M** (pérdida ~$430.000)
-
-└─ V = 3/mes → ingreso $1.635.600 → banca sueldo + margen **~$115.000**
-
-└─ V = 4/mes → ingreso $2.180.800 → margen **~$660.000**
-
-└─ V = 5/mes → ingreso $2.726.000 → margen **~$1.206.000**
-
-**Lectura:** a $1.500.000 de sueldo y vida 12m, el vendedor necesita **3 cierres/mes sostenidos en régimen** para que cierre con margen positivo.
-
-Comparación con `objetivos-vendedor.md` (§3): el doc pide **2 a 4 clientes cerrados por semana** = 8 a 16/mes. Eso está muy por encima del equilibrio (2,8/mes). Si se cumple, el negocio sobra plata; conviene validar si ese target semanal es realista o bajarlo a algo medible.
+A diferencia del sueldo fijo puro, acá el costo del vendedor **escala con las ventas**
+(comisión), así que no hay un piso fijo grande que cubrir: el negocio es rentable desde
+volúmenes bajos. El verdadero piso fijo es solo $250.000 + $20.000 = **$270.000/mes**.
 
 ---
 
-## 5. CAC sostenible y payback
+## 4. Rampa mes a mes (V = 6, L ≥ 12)
 
-CAC (costo de adquisición por cliente) = costo fijo / ventas:
+Sin churn en los primeros 12 meses. Base de clientes activos = 6 × mes.
 
-CAC = $1.520.000 / V
+Fórmulas:
 
-Regla de oro: **CAC ≤ LTV**. Despejando da exactamente V ≥ V_eq (mismo número que el equilibrio). Topes de CAC tolerable:
+└─ Ingreso neto(m) = $817.800 (setups) + $204.450 × m (recurrente acumulado)
 
-└─ L = 6m: hasta **$340.750/cliente**
+└─ Comp vendedor(m) = $772.000 + $60.900 × m
 
-└─ L = 12m: hasta **$545.200/cliente**
+└─ Ganancia dueño(m) = ingreso − comp − infra = **$143.550 × m + $25.800**
 
-└─ L = 24m: hasta **$954.100/cliente**
+Valores clave:
 
-Payback del CAC (meses para recuperar lo invertido por cliente), vida 12m:
+└─ Mes 1 — dueño **$169.350** · vendedor $832.900
 
-└─ V = 3/mes → CAC $506.667. Recupera setup neto $136.300 al instante; resto $370.367 / $34.075 mensual ≈ **~11 meses**
+└─ Mes 4 — dueño **$600.000** · vendedor $1.015.600
 
-└─ V = 4/mes → CAC $380.000. Payback ≈ **~7 meses**
+└─ Mes 6 — dueño **$887.100** · vendedor $1.137.400
 
-Payback largo significa que la rentabilidad depende de que el cliente **no churnee** antes de recuperar el costo. Con vida 12m y payback 11m el colchón es fino: bajar churn o subir V es crítico.
+└─ Mes 8 — dueño **$1.174.200** · vendedor $1.259.200
+
+└─ Mes 10 — dueño **$1.461.300** · vendedor $1.381.000
+
+└─ Mes 11 — dueño **$1.604.850** · vendedor $1.441.900
+
+└─ Mes 12 — dueño **$1.748.400** · vendedor $1.502.800 (régimen)
+
+**Clave:** el dueño es rentable desde el mes 1 (no hace falta capital de trabajo grande,
+a diferencia de un sueldo fijo de $1,5M que exigía ~$3-5M de colchón).
+
+### Ganancia del dueño por mes
+
+```mermaid
+xychart-beta
+    title "Ganancia del dueño por mes — V=6 (barra) vs target $1.5M (línea)"
+    x-axis "Mes" [1,2,3,4,5,6,7,8,9,10,11,12]
+    y-axis "ARS/mes" 0 --> 2000000
+    bar [169350,312900,456450,600000,743550,887100,1030650,1174200,1317750,1461300,1604850,1748400]
+    line [1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000]
+```
+
+### Compensación del vendedor por mes
+
+```mermaid
+xychart-beta
+    title "Compensación del vendedor por mes — V=6 (barra) vs OTE $1.5M (línea)"
+    x-axis "Mes" [1,2,3,4,5,6,7,8,9,10,11,12]
+    y-axis "ARS/mes" 0 --> 1700000
+    bar [832900,893800,954700,1015600,1076500,1137400,1198300,1259200,1320100,1381000,1441900,1502800]
+    line [1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000]
+```
 
 ---
 
-## 6. Rampa — primeros meses
+## 5. ¿Llego a $1.500.000/mes para mí al mes 10?
 
-El régimen asume la base ya construida. Arrancando de cero no hay recurrente: los primeros meses se pierde plata hasta acumular clientes.
+Casi. Con V = 6 exactas y L ≥ 12:
 
-Ingreso del mes m (antes de que empiece el churn, m < L):
+└─ Mes 10: dueño = **$1.461.300** (97% del objetivo)
 
-Ingreso(m) = V × 136.300 (setups) + V × m × 34.075 (recurrente de la base acumulada)
+└─ Cruzás los **$1.500.000 en el mes 11** ($1.604.850)
 
-Escenario V = 3/mes, vida 12m:
+Para clavarlo en el mes 10 (faltan ~$38.700), tres palancas:
 
-└─ Mes 1: base 3 → ingreso $511.125 → pérdida $1.008.875
+└─ Subir a **~6,3 ventas/mes** promedio (1 venta extra cada 3 meses)
 
-└─ Mes 3: base 9 → ingreso $715.575 → pérdida $804.425
+└─ Subir el precio de setup (ej. de $145k a ~$160k acelera el cruce)
 
-└─ Mes 6: base 18 → ingreso $1.022.250 → pérdida $497.750
+└─ Recortar levemente la comisión recurrente (28% → 25%)
 
-└─ Mes 9: base 27 → ingreso $1.328.925 → pérdida $191.075
-
-└─ Mes 11: base 33 → ingreso $1.533.375 → **breakeven mensual** (+$13.375)
-
-└─ Mes 12: base 36 → ingreso $1.635.600 → +$115.600 (régimen)
-
-**Capital de trabajo necesario:** la suma de las pérdidas hasta el breakeven mensual es **~$5.500.000** con V = 3/mes. Con V = 4/mes el breakeven mensual llega al **~mes 8** y el capital baja a **~$3.000.000**.
-
-Hay que tener ese colchón antes de contratar, o el sueldo funde la caja antes de que el recurrente despegue.
+El vendedor llega a su OTE de $1,5M recién en el mes 12 (en régimen). Antes cobra menos
+porque el recurrente todavía no está acumulado — normal en un rol con comisión recurrente.
 
 ---
 
-## 7. Conclusión — ¿banca $1.500.000?
+## 6. Reparto del ingreso neto en régimen (V=6)
 
-└─ **En régimen, sí**, si el vendedor sostiene **≥ 3 cierres/mes** (vida 12m). Con 4/mes deja margen cómodo (~$660k).
+De cada mes en régimen ($3.271.200 netos), el reparto:
 
-└─ **Con menos de ~2,8 cierres/mes el negocio pierde plata** pagando ese sueldo.
+```mermaid
+pie showData
+    title Reparto del ingreso neto mensual — régimen V=6
+    "Dueño" : 1748400
+    "Comisión vendedor" : 1252800
+    "Fijo vendedor" : 250000
+    "Infra" : 20000
+```
 
-└─ **El riesgo no es el régimen, es la rampa:** hacen falta **~$3-5,5M de capital** para aguantar los primeros 8-11 meses hasta que el recurrente cubra el sueldo.
+El vendedor (fijo + comisión) se lleva ~46% del ingreso neto; el dueño retiene ~53%.
 
-└─ **Palancas para mejorar:** subir vida del cliente (reduce equilibrio a 1,6/mes a 24m), subir ventas/mes, o atar parte del sueldo a comisión para reducir el fijo durante la rampa.
+---
 
-└─ **Pendiente de validar:** vida real del cliente (define todo el modelo) y si el target de 8-16 cierres/mes de `objetivos-vendedor.md` es alcanzable.
+## 7. Sensibilidad a la vida del cliente
 
-> Esquema de comisión variable vs. sueldo fijo: ver `proceso-interno.md`. Targets y ratios del vendedor: `objetivos-vendedor.md`.
+Todo el plan **depende de que el cliente se quede ≥ 12 meses**. Si churnea antes, la base
+deja de crecer y tanto tu ganancia como el OTE del vendedor caen:
+
+└─ L = 24m: base sigue creciendo hasta 144 activos → dueño en régimen muy por encima de $1,5M
+
+└─ L = 12m: base se estabiliza en 72 → dueño $1.748.400/mes (escenario de este doc)
+
+└─ L = 6m: churn arranca en el mes 7, base tope ~36 → dueño solo **~$887.000/mes** y
+   vendedor **~$1.137.000** (ninguno llega al target)
+
+**Acción:** medir la vida real del cliente apenas haya datos. Es la variable que define si
+el modelo se cumple o se cae.
+
+---
+
+## 8. Conclusión
+
+└─ **El esquema $250k fijo + comisión banca el OTE de $1,5M** del vendedor a 6 ventas/mes
+   en régimen, sin fundir la caja: el dueño es rentable desde el mes 1.
+
+└─ **Tu objetivo de $1,5M/mes se alcanza en el mes 11**, no el 10, con V=6 exactas.
+   Un empujón mínimo (6,3 ventas/mes o +$15k de setup) lo adelanta al mes 10.
+
+└─ **En régimen el dueño retiene ~$1.748.400/mes** (L=12m), por encima del objetivo.
+
+└─ **Riesgo único real: el churn.** Con vida < 12m el modelo no se sostiene. Medirlo es
+   prioridad uno.
+
+└─ Comisión y precios son perillas ajustables: ver §2 y §5 para mover el punto donde
+   alcanzás tu $1,5M.
+
+> Targets y ratios del vendedor: `objetivos-vendedor.md`. Cobros y escalamiento: `proceso-interno.md`.
