@@ -119,7 +119,63 @@ xychart-beta
 
 ---
 
-## 5. Trade-offs (no solo números)
+## 5. Sensibilidad a la vida del cliente, por escenario
+
+La vida media L mueve el resultado tanto como el precio. En régimen la base se estabiliza
+en 6×L clientes, y la ganancia del dueño es:
+
+Ganancia régimen = intercepto(setup) + $143.550 × L
+
+Ganancia del dueño en régimen, según vida del cliente:
+
+└─ **Setup $145k** — L=6: **$887.100**  ·  L=12: **$1.748.400**  ·  L=24: **$3.471.000**
+
+└─ **Setup $190k** — L=6: **$1.140.900**  ·  L=12: **$2.002.200**  ·  L=24: **$3.724.800**
+
+└─ **Setup $240k** — L=6: **$1.422.900**  ·  L=12: **$2.284.200**  ·  L=24: **$4.006.800**
+
+Mes en que alcanzás $1.5M/mes (la rampa no tiene churn antes del mes 12, así que L=12 y
+L=24 dan el mismo mes; con L=6 el churn arranca en el mes 7 y topa la base):
+
+└─ **L = 6m:** **ningún escenario llega a $1,5M/mes.** La base topa en 36 clientes (~mes 7)
+   y la ganancia se estanca: $887k ($145k), $1.141k ($190k), $1.423k ($240k). Ni siquiera
+   el setup alto alcanza tu objetivo.
+
+└─ **L = 12m:** $145k → mes 11  ·  $190k → mes 9  ·  $240k → mes 7
+
+└─ **L = 24m:** mismo mes que L=12 para cruzar $1,5M, pero la ganancia sigue creciendo
+   después hasta $3,5-4,0M/mes en régimen.
+
+**Hallazgo clave:** la vida del cliente pesa más que el precio. Pasar de $145k a $240k a
+vida 12m suma ~$536k/mes; pasar de L=6 a L=12 (mismo precio) suma ~$861k/mes. Retener
+clientes rinde más que subir el setup.
+
+**Alerta sobre el vendedor:** a L=24 la comisión recurrente acumulada lleva el OTE del
+vendedor a ~$2.233.600/mes (cobra $10.150 por cada uno de 144 clientes activos). Si la
+vida resulta larga, conviene poner un tope a la comisión recurrente o convertir parte en
+bono único, o el costo del vendedor se dispara.
+
+### Ganancia del dueño en régimen vs vida del cliente
+
+Líneas de abajo hacia arriba: **$145k**, **$190k**, **$240k**. La recta = target $1.5M.
+
+```mermaid
+xychart-beta
+    title "Ganancia del dueño en régimen según vida del cliente"
+    x-axis "Vida del cliente (meses)" [6, 12, 24]
+    y-axis "ARS/mes" 0 --> 4200000
+    line [887100, 1748400, 3471000]
+    line [1140900, 2002200, 3724800]
+    line [1422900, 2284200, 4006800]
+    line [1500000, 1500000, 1500000]
+```
+
+Donde las curvas cruzan la recta del target se ve a simple vista: con L=6 todas quedan por
+debajo; con L≥12 las tres superan tu objetivo.
+
+---
+
+## 6. Trade-offs (no solo números)
 
 Subir el setup acelera tu objetivo, pero tiene costos cualitativos:
 
@@ -136,7 +192,7 @@ Subir el setup acelera tu objetivo, pero tiene costos cualitativos:
 
 ---
 
-## 6. Recomendación
+## 7. Recomendación
 
 └─ **$190.000 es el punto dulce:** te lleva a $1,5M/mes en el **mes 9** (dos meses antes
    que el actual) con un aumento de precio moderado (+31%) que probablemente no rompe la
@@ -148,8 +204,13 @@ Subir el setup acelera tu objetivo, pero tiene costos cualitativos:
 └─ **$145.000 (actual)** es el más seguro para cerrar, pero te deja en el mes 11 — un mes
    tarde respecto a tu objetivo de mes 10.
 
+└─ **Antes que el precio, la retención:** ningún setup llega a tu objetivo si la vida del
+   cliente es de 6 meses (§5). Subir L de 6 a 12 rinde más que cualquier aumento de precio.
+   Priorizar onboarding y soporte para que el cliente no churnee.
+
 └─ **Camino sugerido:** probar **$190k** con A/B real de conversión antes de comprometerse;
-   si la tasa de cierre aguanta, evaluar $240k.
+   si la tasa de cierre aguanta, evaluar $240k. En paralelo, medir y empujar la vida del
+   cliente — es la palanca de mayor impacto.
 
 > Metodología completa, esquema de comisión y rampa detallada: `lsp-vendedor.md`.
 > Precio y posicionamiento: `README.md`, `ficha-producto.md`. Rebates: `objeciones.md`.
