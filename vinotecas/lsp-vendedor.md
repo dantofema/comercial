@@ -34,7 +34,8 @@ Estructura del vendedor:
 
 Otros costos:
 
-└─ Infra (1 droplet, hostea varios clientes): **~$20.000/mes** fijo
+└─ Infra escalonada: **$50.000/mes** hasta 49 clientes; **$100.000/mes** desde 50
+   clientes (backups, droplets optimizados, etc.)
 
 └─ Costo variable por cliente: ≈ $0
 
@@ -77,13 +78,15 @@ LTV neto por cliente = 178.600 + 34.075 × L:
 
 A diferencia del sueldo fijo puro, acá el costo del vendedor **escala con las ventas**
 (comisión), así que no hay un piso fijo grande que cubrir: el negocio es rentable desde
-volúmenes bajos. El verdadero piso fijo es solo $250.000 + $20.000 = **$270.000/mes**.
+volúmenes bajos. El verdadero piso fijo es solo $250.000 + $50.000 = **$300.000/mes** (sube
+a $350.000 al pasar 50 clientes por la infra).
 
 ---
 
 ## 4. Rampa mes a mes (V = 8, L ≥ 12)
 
-Sin churn en los primeros 12 meses. Base de clientes activos = 8 × mes.
+Sin churn en los primeros 12 meses. Base de clientes activos = 8 × mes. La base cruza 50
+en el **mes 7** (base 56), así que la infra sube de $50.000 a $100.000/mes a partir de ahí.
 
 Fórmulas:
 
@@ -91,21 +94,27 @@ Fórmulas:
 
 └─ Comp vendedor(m) = $1.010.000 + $72.500 × m
 
-└─ Ganancia dueño(m) = ingreso − comp − infra = **$200.100 × m + $398.800**
+└─ Ganancia dueño(m) = ingreso − comp − infra:
+
+   ├─ Meses 1–6 (infra $50k): **$200.100 × m + $368.800**
+
+   └─ Meses 7–12 (infra $100k): **$200.100 × m + $318.800**
 
 Valores clave:
 
-└─ Mes 1 — dueño **$598.900** · vendedor $1.082.500
+└─ Mes 1 — dueño **$568.900** · vendedor $1.082.500
 
-└─ Mes 4 — dueño **$1.199.200** · vendedor $1.300.000
+└─ Mes 4 — dueño **$1.169.200** · vendedor $1.300.000
 
-└─ Mes 6 — dueño **$1.599.400** · vendedor $1.445.000 (cruza tu target)
+└─ Mes 6 — dueño **$1.569.400** · vendedor $1.445.000 (cruza tu target)
 
-└─ Mes 8 — dueño **$1.999.600** · vendedor $1.590.000
+└─ Mes 7 — dueño **$1.719.500** · vendedor $1.517.500 (infra salta a $100k)
 
-└─ Mes 10 — dueño **$2.399.800** · vendedor $1.735.000
+└─ Mes 8 — dueño **$1.919.600** · vendedor $1.590.000
 
-└─ Mes 12 — dueño **$2.800.000** · vendedor $1.880.000 (régimen)
+└─ Mes 10 — dueño **$2.319.800** · vendedor $1.735.000
+
+└─ Mes 12 — dueño **$2.720.000** · vendedor $1.880.000 (régimen)
 
 **Clave:** el dueño es rentable desde el mes 1 (no hace falta capital de trabajo grande,
 a diferencia de un sueldo fijo de $1,5M que exigía ~$3-5M de colchón).
@@ -117,7 +126,7 @@ xychart-beta
     title "Ganancia del dueño por mes — V=8 (barra) vs target $1.5M (línea)"
     x-axis "Mes" [1,2,3,4,5,6,7,8,9,10,11,12]
     y-axis "ARS/mes" 0 --> 3000000
-    bar [598900,799000,999100,1199200,1399300,1599400,1799500,1999600,2199700,2399800,2599900,2800000]
+    bar [568900,769000,969100,1169200,1369300,1569400,1719500,1919600,2119700,2319800,2519900,2720000]
     line [1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000]
 ```
 
@@ -138,9 +147,9 @@ xychart-beta
 
 Sí, holgado. Con V = 8 y L ≥ 12:
 
-└─ Cruzás los **$1.500.000 en el mes 6** ($1.599.400) — cuatro meses antes de tu objetivo
+└─ Cruzás los **$1.500.000 en el mes 6** ($1.569.400) — cuatro meses antes de tu objetivo
 
-└─ Mes 10: dueño = **$2.399.800** (160% del objetivo)
+└─ Mes 10: dueño = **$2.319.800** (155% del objetivo)
 
 El 50% de comisión sobre el setup hace que el vendedor arranque cobrando fuerte ($1,08M ya
 en el mes 1) y retrasa un poco tu cruce frente a un % de setup menor — pero con 8 ventas/mes
@@ -150,18 +159,18 @@ igual llegás al mes 6. El cuello de botella es la **capacidad real del vendedor
 
 ## 6. Reparto del ingreso neto en régimen (V=8)
 
-De cada mes en régimen ($4.700.000 netos), el reparto:
+De cada mes en régimen ($4.700.000 netos, base 96), el reparto:
 
 ```mermaid
 pie showData
     title Reparto del ingreso neto mensual — régimen V=8
-    "Dueño" : 2800000
+    "Dueño" : 2720000
     "Comisión vendedor" : 1630000
     "Fijo vendedor" : 250000
-    "Infra" : 20000
+    "Infra" : 100000
 ```
 
-El vendedor (fijo + comisión) se lleva ~40% del ingreso neto; el dueño retiene ~60%.
+El vendedor (fijo + comisión) se lleva ~40% del ingreso neto; el dueño retiene ~58%.
 
 ---
 
@@ -169,20 +178,25 @@ El vendedor (fijo + comisión) se lleva ~40% del ingreso neto; el dueño retiene
 
 El plan **depende de que el cliente se quede ≥ 12 meses** para llegar al régimen pleno. Si
 churnea antes, la base deja de crecer. En régimen la base se estabiliza en 8×L clientes y
-la ganancia del dueño es:
+la ganancia del dueño es (descontando la infra según el escalón de la base):
 
-Ganancia régimen = $398.800 + $200.100 × L
+Ganancia régimen = $418.800 + $200.100 × L − infra
 
-└─ L = 24m: base crece hasta 192 activos → dueño **$5.201.200/mes**
+└─ L = 24m: base crece hasta 192 activos (≥50 → infra $100.000) → dueño **$5.121.200/mes**
 
-└─ L = 12m: base se estabiliza en 96 → dueño **$2.800.000/mes** (escenario de este doc)
+└─ L = 12m: base se estabiliza en 96 (≥50 → infra $100.000) → dueño **$2.720.000/mes**
+   (escenario de este doc)
 
-└─ L = 6m: churn arranca en el mes 7, base tope ~48 → dueño **$1.599.400/mes** y
-   vendedor **~$1.445.000**
+└─ L = 6m: churn arranca en el mes 7, base tope ~48 (<50 → infra $50.000) → dueño
+   **$1.569.400/mes** y vendedor **~$1.445.000**
 
-**Hallazgo:** con 8 ventas/mes incluso L=6 supera tu target de $1,5M ($1.599.400). El
+**Salto de infra:** la base pasa 50 clientes en el mes 7, así que casi todos los escenarios
+(L≥7) pagan $100.000/mes de infra. Solo si la vida es muy corta (L=6, base tope 48) te
+quedás en $50.000. El salto resta $50.000/mes — marginal frente a la ganancia.
+
+**Hallazgo:** con 8 ventas/mes incluso L=6 supera tu target de $1,5M ($1.569.400). El
 volumen compensa la vida corta. Aun así, retener rinde: subir L de 6 a 12 suma
-~$1.200.000/mes al dueño.
+~$1.150.000/mes al dueño.
 
 **Alerta sobre el vendedor:** a L=24 la comisión recurrente lleva el OTE del vendedor a
 ~$2.750.000/mes (cobra $9.062,50 por cada uno de 192 clientes activos), más el 50% de setup
@@ -198,7 +212,10 @@ o convertir parte en bono único.
 
 └─ **Tu objetivo de $1,5M/mes se alcanza en el mes 6**, por delante de tu meta, con V=8.
 
-└─ **En régimen el dueño retiene $2.800.000/mes** (L=12m), casi el doble del objetivo.
+└─ **En régimen el dueño retiene $2.720.000/mes** (L=12m, infra $100k), casi el doble del objetivo.
+
+└─ **La infra ($50k → $100k al pasar 50 clientes) casi no mueve la aguja:** $50.000/mes
+   extra es marginal frente a una ganancia de $2,7-5M. No es palanca de decisión.
 
 └─ **El cuello de botella pasa a ser el cierre:** el modelo banca 8 ventas/mes, la pregunta
    es si el vendedor las sostiene. El 50% de setup lo incentiva a cazar clientes nuevos.
