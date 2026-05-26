@@ -25,11 +25,10 @@ Software de venta online para vinotecas. Vendés por teléfono, WhatsApp y email
 
 **Es relación comercial bajo monotributo, no relación de dependencia.** 100% remoto, horario flexible.
 
-📩 Interesados/as, escriban a [mail/WhatsApp].
+📩 Interesados/as, escriban a info@dantofema.ar
 
 ---
 
 Notas:
 - $95.000 = 50% del setup ($190.000). $9.000 ≈ 25% del mensual ($36.250).
 - Ejemplo a 8 ventas = target del rol (`lsp-vendedor.md`). No incluye el recurrente acumulado, que se suma aparte.
-- Completar `[mail/WhatsApp]` antes de publicar.
