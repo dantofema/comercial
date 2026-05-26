@@ -16,7 +16,7 @@ Tu trabajo: contactar vinotecas, mostrarles la demo y cerrar la venta. El proces
 
 💰 Cómo cobrás (fijo + comisión):
 
-• $250.000 fijos todos los meses, vendas lo que vendas
+• $250.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
 
 • + $95.000 por cada cliente nuevo que cerrás (comisión del setup)
 
@@ -62,7 +62,7 @@ No arrancás de cero: el proceso de venta, los speeches, las respuestas a objeci
 
 💰 Cómo cobrás (fijo + comisión):
 
-• $250.000 fijos todos los meses, vendas lo que vendas
+• $250.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
 
 • + $95.000 por cada cliente nuevo que cerrás (comisión sobre el setup)
 
