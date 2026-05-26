@@ -12,7 +12,7 @@ Referencia rápida. Tener abierto durante llamadas.
 
 ## Precio (promo 50% OFF de por vida)
 
-- Setup único: **$145.000** (precio base $290.000)
+- Setup único: **$190.000** (precio base $380.000)
 - Mensual: **$36.250/mes** (precio base $72.500/mes)
 - Ambos se cobran siempre — no hay plan solo-setup ni solo-mensual.
 - 50% OFF se mantiene **de por vida** mientras el cliente esté activo y al día.

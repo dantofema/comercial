@@ -24,7 +24,7 @@ Documentación orientada a venta del vertical vinotecas.
 
 ## Precio (promo 50% OFF de por vida)
 
-- Setup único: $145.000 (base $290.000)
+- Setup único: $190.000 (base $380.000)
 - Mensual: $36.250 (base $72.500)
 - Ambos se cobran siempre. Descuento del 50% se mantiene de por vida mientras cliente esté activo y al día.
 

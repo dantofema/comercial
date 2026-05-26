@@ -44,7 +44,7 @@ Tres puntos, en este orden de importancia:
 2. Llamada fría con `speeches/01-llamada-fria.md` — objetivo: conseguir WhatsApp y mandar demo
 3. Enviar demo con `speeches/02-envio-demo.md` — agendar fecha de segunda llamada en el mismo mensaje
 4. Llamada de cierre con `speeches/03-llamada-cierre.md` — usar `objeciones.md` ante rechazo
-5. Acuerdo verbal → enviar links de Mercado Pago: setup ($145.000) + suscripción mensual ($36.250)
+5. Acuerdo verbal → enviar links de Mercado Pago: setup ($190.000) + suscripción mensual ($36.250)
 6. Cobro setup confirmado → onboarding con `speeches/04-onboarding.md`
 7. Publicación en 24 horas → arranca suscripción mensual MP ($36.250 con 50% OFF de por vida)
 8. Post-venta continua (ver sección 7)

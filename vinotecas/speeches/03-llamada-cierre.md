@@ -76,7 +76,7 @@ Para empezar solo necesitamos:
 
 Como te había comentado, hoy estamos con **50% OFF de por vida**:
 
-└─ Setup único de **$145.000** (base $290.000) para crear la tienda
+└─ Setup único de **$190.000** (base $380.000) para crear la tienda
 
 └─ **$36.250 por mes** (base $72.500) que incluye hosting, mantenimiento y soporte
 
@@ -94,7 +94,7 @@ Si te parece, arrancamos hoy:
 
 Te mando por WhatsApp **dos links de Mercado Pago**:
 
-- Uno por el setup de $145.000
+- Uno por el setup de $190.000
 - Otro por la suscripción mensual de $36.250
 
 Pagás el setup, confirmo conmigo por WhatsApp, y mañana mismo arrancamos a armar la tienda. En 24 horas tenés tu sitio publicado.

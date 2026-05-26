@@ -74,7 +74,7 @@ Te cuento el precio. Hoy estamos con una promo: **50% OFF de por vida**.
 
 Se divide en dos, y **ambos se cobran siempre**:
 
-Un **setup único de $145.000** (precio base $290.000). Ahí entra todo: el diseño, la configuración, los 2000 vinos cargados con fotos, el dominio .com.ar, y dejar el sitio publicado en 24 horas.
+Un **setup único de $190.000** (precio base $380.000). Ahí entra todo: el diseño, la configuración, los 2000 vinos cargados con fotos, el dominio .com.ar, y dejar el sitio publicado en 24 horas.
 
 Y después **$36.250 por mes** (precio base $72.500), que incluye hosting, mantenimiento y soporte.
 
@@ -114,7 +114,7 @@ Perfecto. Ahora te mando el link.
 
 └─ Después de preguntar, **callate y esperá respuesta**.
 
-└─ Precio siempre completo: "$145.000 setup y $36.250 por mes, con 50% OFF de por vida". Nunca dar solo uno.
+└─ Precio siempre completo: "$190.000 setup y $36.250 por mes, con 50% OFF de por vida". Nunca dar solo uno.
 
 └─ Si el cliente interrumpe con objeción → ir a `objeciones.md`.
 

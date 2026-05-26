@@ -4,7 +4,7 @@ Solo para vendedor y dueño. No se comparte con cliente.
 
 ## Cobros (Mercado Pago)
 
-- Setup $145.000 (precio base $290.000, 50% OFF promo de por vida): link de pago único generado por el dueño. Vendedor lo pide al dueño tras acuerdo verbal con cliente.
+- Setup $190.000 (precio base $380.000, 50% OFF promo de por vida): link de pago único generado por el dueño. Vendedor lo pide al dueño tras acuerdo verbal con cliente.
 - Mensualidad $36.250 (precio base $72.500, 50% OFF promo de por vida): link de suscripción MP, también generado por dueño. Se envía al cliente junto al setup o inmediatamente después del cobro.
 - Ambos cargos se cobran siempre. No hay plan solo-setup ni solo-mensual.
 - Descuento 50% se mantiene de por vida mientras cliente esté activo y al día con la suscripción. Si cancela y vuelve, se cotiza al precio vigente.

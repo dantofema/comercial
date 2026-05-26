@@ -1,6 +1,6 @@
 # Speech 04 — Onboarding post-pago
 
-Se ejecuta apenas se cobra el setup ($145.000, promo 50% OFF de por vida) en Mercado Pago. Objetivo: recolectar todos los datos para que el dueño/dev publique el sitio en 24 horas.
+Se ejecuta apenas se cobra el setup ($190.000, promo 50% OFF de por vida) en Mercado Pago. Objetivo: recolectar todos los datos para que el dueño/dev publique el sitio en 24 horas.
 
 ---
 
