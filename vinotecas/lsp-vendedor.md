@@ -1,9 +1,9 @@
 # LSP — Modelo de pago al vendedor y rentabilidad (Andes Vinotecas)
 
-Unit economics del rol comercial con esquema **fijo + comisión**, target **6 ventas/mes**.
+Unit economics del rol comercial con esquema **fijo + comisión**, target **8 ventas/mes**.
 Responde dos preguntas:
 
-1. ¿El esquema $250.000 fijo + comisión banca un OTE de $1.500.000 al vendedor?
+1. ¿Cuánto gana el vendedor (OTE) con el esquema $250.000 fijo + comisión?
 2. ¿En cuántos meses el negocio me deja **$1.500.000/mes a mí** (dueño)?
 
 Enfoque steady-state (régimen) + rampa mes a mes desde cero.
@@ -28,9 +28,9 @@ Estructura del vendedor:
 
 └─ Fijo garantizado: **$250.000/mes**
 
-└─ Comisión variable: % del setup + % del recurrente (ver §2)
+└─ Comisión variable: **50% del setup + 25% del recurrente** (ver §2)
 
-└─ OTE (on-target earnings) a 6 ventas/mes en régimen: **~$1.500.000**
+└─ OTE (on-target earnings) a 8 ventas/mes en régimen: **$1.880.000**
 
 Otros costos:
 
@@ -40,7 +40,7 @@ Otros costos:
 
 Variables:
 
-└─ **V** = ventas nuevas/mes = **6** (target fijo de este doc)
+└─ **V** = ventas nuevas/mes = **8** (target fijo de este doc)
 
 └─ **L** = vida media del cliente en meses (sin dato real; ramp asume L ≥ 12)
 
@@ -48,24 +48,24 @@ Variables:
 
 ## 2. Esquema de comisión
 
-Comisión sobre el monto **facturado** (bruto), en porcentajes redondos:
+Comisión sobre el monto facturado (bruto), pagada al vendedor:
 
 └─ Por cierre nuevo: **50% del setup = $95.000**
 
-└─ Por cliente activo, cada mes: **26% del mensual = $9.425**
+└─ Por cliente activo, cada mes: **25% del mensual = $9.062,50**
 
-Calibración a régimen (V=6, base 72 clientes activos):
+Calibración a régimen (V=8, base 96 clientes activos):
 
-└─ Comisión por setups: 6 × $95.000 = **$570.000/mes**
+└─ Comisión por setups: 8 × $95.000 = **$760.000/mes**
 
-└─ Comisión por recurrente: 72 × $9.425 = **$678.600/mes**
+└─ Comisión por recurrente: 96 × $9.062,50 = **$870.000/mes**
 
-└─ Variable total: **$1.248.600** + fijo $250.000 = **$1.498.600 ≈ OTE $1,5M** ✓
+└─ Variable total: **$1.630.000** + fijo $250.000 = **OTE $1.880.000/mes**
 
-**Nota:** el 50% del setup es alto porque el precio de setup, aunque sea $190k, sigue siendo
-bajo frente a un OTE de $1,5M con solo 6 ventas. El recurrente (26%) premia retención: el
-vendedor cobra mientras el cliente siga activo, alineando su interés con el churn bajo.
-Ambos % son perillas ajustables: subir el setup permite bajarlos.
+**Nota:** el 50% del setup carga fuerte la comisión hacia el cierre (premia traer cliente
+nuevo); el 25% recurrente premia retención. Con 8 ventas/mes el OTE del vendedor sube a
+~$1,88M — bien por encima de un piso de $1,5M. Ambos % son perillas ajustables: si querés
+bajar el OTE del vendedor, recortá el % de setup.
 
 ---
 
@@ -81,33 +81,31 @@ volúmenes bajos. El verdadero piso fijo es solo $250.000 + $20.000 = **$270.000
 
 ---
 
-## 4. Rampa mes a mes (V = 6, L ≥ 12)
+## 4. Rampa mes a mes (V = 8, L ≥ 12)
 
-Sin churn en los primeros 12 meses. Base de clientes activos = 6 × mes.
+Sin churn en los primeros 12 meses. Base de clientes activos = 8 × mes.
 
 Fórmulas:
 
-└─ Ingreso neto(m) = $1.071.600 (setups) + $204.450 × m (recurrente acumulado)
+└─ Ingreso neto(m) = $1.428.800 (setups) + $272.600 × m (recurrente acumulado)
 
-└─ Comp vendedor(m) = $820.000 + $56.550 × m
+└─ Comp vendedor(m) = $1.010.000 + $72.500 × m
 
-└─ Ganancia dueño(m) = ingreso − comp − infra = **$147.900 × m + $231.600**
+└─ Ganancia dueño(m) = ingreso − comp − infra = **$200.100 × m + $398.800**
 
 Valores clave:
 
-└─ Mes 1 — dueño **$379.500** · vendedor $876.550
+└─ Mes 1 — dueño **$598.900** · vendedor $1.082.500
 
-└─ Mes 4 — dueño **$823.200** · vendedor $1.046.200
+└─ Mes 4 — dueño **$1.199.200** · vendedor $1.300.000
 
-└─ Mes 6 — dueño **$1.119.000** · vendedor $1.159.300
+└─ Mes 6 — dueño **$1.599.400** · vendedor $1.445.000 (cruza tu target)
 
-└─ Mes 8 — dueño **$1.414.800** · vendedor $1.272.400
+└─ Mes 8 — dueño **$1.999.600** · vendedor $1.590.000
 
-└─ Mes 9 — dueño **$1.562.700** · vendedor $1.328.950 (cruza tu target)
+└─ Mes 10 — dueño **$2.399.800** · vendedor $1.735.000
 
-└─ Mes 10 — dueño **$1.710.600** · vendedor $1.385.500
-
-└─ Mes 12 — dueño **$2.006.400** · vendedor $1.498.600 (régimen)
+└─ Mes 12 — dueño **$2.800.000** · vendedor $1.880.000 (régimen)
 
 **Clave:** el dueño es rentable desde el mes 1 (no hace falta capital de trabajo grande,
 a diferencia de un sueldo fijo de $1,5M que exigía ~$3-5M de colchón).
@@ -116,10 +114,10 @@ a diferencia de un sueldo fijo de $1,5M que exigía ~$3-5M de colchón).
 
 ```mermaid
 xychart-beta
-    title "Ganancia del dueño por mes — V=6 (barra) vs target $1.5M (línea)"
+    title "Ganancia del dueño por mes — V=8 (barra) vs target $1.5M (línea)"
     x-axis "Mes" [1,2,3,4,5,6,7,8,9,10,11,12]
-    y-axis "ARS/mes" 0 --> 2200000
-    bar [379500,527400,675300,823200,971100,1119000,1266900,1414800,1562700,1710600,1858500,2006400]
+    y-axis "ARS/mes" 0 --> 3000000
+    bar [598900,799000,999100,1199200,1399300,1599400,1799500,1999600,2199700,2399800,2599900,2800000]
     line [1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000]
 ```
 
@@ -127,86 +125,84 @@ xychart-beta
 
 ```mermaid
 xychart-beta
-    title "Compensación del vendedor por mes — V=6 (barra) vs OTE $1.5M (línea)"
+    title "Compensación del vendedor por mes — V=8 (barra) vs OTE $1.88M (línea)"
     x-axis "Mes" [1,2,3,4,5,6,7,8,9,10,11,12]
-    y-axis "ARS/mes" 0 --> 1700000
-    bar [876550,933100,989650,1046200,1102750,1159300,1215850,1272400,1328950,1385500,1442050,1498600]
-    line [1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000]
+    y-axis "ARS/mes" 0 --> 2000000
+    bar [1082500,1155000,1227500,1300000,1372500,1445000,1517500,1590000,1662500,1735000,1807500,1880000]
+    line [1880000,1880000,1880000,1880000,1880000,1880000,1880000,1880000,1880000,1880000,1880000,1880000]
 ```
 
 ---
 
 ## 5. ¿Llego a $1.500.000/mes para mí al mes 10?
 
-Sí, y con margen. Con V = 6 exactas y L ≥ 12:
+Sí, holgado. Con V = 8 y L ≥ 12:
 
-└─ Cruzás los **$1.500.000 en el mes 9** ($1.562.700) — un mes antes de tu objetivo
+└─ Cruzás los **$1.500.000 en el mes 6** ($1.599.400) — cuatro meses antes de tu objetivo
 
-└─ Mes 10: dueño = **$1.710.600** (114% del objetivo)
+└─ Mes 10: dueño = **$2.399.800** (160% del objetivo)
 
-El salto frente al setup viejo de $145k (que cruzaba recién en el mes 11) viene de subir
-el setup a $190k manteniendo el OTE del vendedor fijo: todo el aumento de precio queda para vos.
-
-El vendedor llega a su OTE de $1,5M recién en el mes 12 (en régimen). Antes cobra menos
-porque el recurrente todavía no está acumulado — normal en un rol con comisión recurrente.
+El 50% de comisión sobre el setup hace que el vendedor arranque cobrando fuerte ($1,08M ya
+en el mes 1) y retrasa un poco tu cruce frente a un % de setup menor — pero con 8 ventas/mes
+igual llegás al mes 6. El cuello de botella es la **capacidad real del vendedor de cerrar 8/mes**.
 
 ---
 
-## 6. Reparto del ingreso neto en régimen (V=6)
+## 6. Reparto del ingreso neto en régimen (V=8)
 
-De cada mes en régimen ($3.525.000 netos), el reparto:
+De cada mes en régimen ($4.700.000 netos), el reparto:
 
 ```mermaid
 pie showData
-    title Reparto del ingreso neto mensual — régimen V=6
-    "Dueño" : 2006400
-    "Comisión vendedor" : 1248600
+    title Reparto del ingreso neto mensual — régimen V=8
+    "Dueño" : 2800000
+    "Comisión vendedor" : 1630000
     "Fijo vendedor" : 250000
     "Infra" : 20000
 ```
 
-El vendedor (fijo + comisión) se lleva ~43% del ingreso neto; el dueño retiene ~57%.
+El vendedor (fijo + comisión) se lleva ~40% del ingreso neto; el dueño retiene ~60%.
 
 ---
 
 ## 7. Sensibilidad a la vida del cliente
 
-Todo el plan **depende de que el cliente se quede ≥ 12 meses**. Si churnea antes, la base
-deja de crecer y tanto tu ganancia como el OTE del vendedor caen. En régimen la base se
-estabiliza en 6×L clientes y la ganancia del dueño es:
+El plan **depende de que el cliente se quede ≥ 12 meses** para llegar al régimen pleno. Si
+churnea antes, la base deja de crecer. En régimen la base se estabiliza en 8×L clientes y
+la ganancia del dueño es:
 
-Ganancia régimen = $231.600 + $147.900 × L
+Ganancia régimen = $398.800 + $200.100 × L
 
-└─ L = 24m: base sigue creciendo hasta 144 activos → dueño **$3.781.200/mes**
+└─ L = 24m: base crece hasta 192 activos → dueño **$5.201.200/mes**
 
-└─ L = 12m: base se estabiliza en 72 → dueño **$2.006.400/mes** (escenario de este doc)
+└─ L = 12m: base se estabiliza en 96 → dueño **$2.800.000/mes** (escenario de este doc)
 
-└─ L = 6m: churn arranca en el mes 7, base tope ~36 → dueño solo **$1.119.000/mes** y
-   vendedor **~$1.159.300** (ninguno llega al target)
+└─ L = 6m: churn arranca en el mes 7, base tope ~48 → dueño **$1.599.400/mes** y
+   vendedor **~$1.445.000**
 
-**Acción:** medir la vida real del cliente apenas haya datos. Es la variable que define si
-el modelo se cumple o se cae. Retener pesa más que el precio: subir L de 6 a 12 suma
-~$887k/mes al dueño.
+**Hallazgo:** con 8 ventas/mes incluso L=6 supera tu target de $1,5M ($1.599.400). El
+volumen compensa la vida corta. Aun así, retener rinde: subir L de 6 a 12 suma
+~$1.200.000/mes al dueño.
 
-**Alerta sobre el vendedor:** a L=24 la comisión recurrente acumulada lleva el OTE del
-vendedor a ~$1.607.200/mes (cobra $9.425 por cada uno de 144 clientes activos). Si la vida
-resulta larga, conviene topar la comisión recurrente o convertir parte en bono único.
+**Alerta sobre el vendedor:** a L=24 la comisión recurrente lleva el OTE del vendedor a
+~$2.750.000/mes (cobra $9.062,50 por cada uno de 192 clientes activos), más el 50% de setup
+que ya pesa fuerte desde el arranque. Si la vida resulta larga, conviene topar la comisión
+o convertir parte en bono único.
 
 ---
 
 ## 8. Conclusión
 
-└─ **El esquema $250k fijo + comisión banca el OTE de $1,5M** del vendedor a 6 ventas/mes
-   en régimen, sin fundir la caja: el dueño es rentable desde el mes 1.
+└─ **El esquema $250k fijo + 50%/25% de comisión da un OTE de ~$1,88M** al vendedor a
+   8 ventas/mes en régimen, sin fundir la caja: el dueño es rentable desde el mes 1.
 
-└─ **Tu objetivo de $1,5M/mes se alcanza en el mes 9**, un mes antes de tu meta, con V=6
-   exactas — gracias al setup de $190k.
+└─ **Tu objetivo de $1,5M/mes se alcanza en el mes 6**, por delante de tu meta, con V=8.
 
-└─ **En régimen el dueño retiene ~$2.006.400/mes** (L=12m), bien por encima del objetivo.
+└─ **En régimen el dueño retiene $2.800.000/mes** (L=12m), casi el doble del objetivo.
 
-└─ **Riesgo único real: el churn.** Con vida < 12m el modelo no se sostiene. Medirlo es
-   prioridad uno.
+└─ **El cuello de botella pasa a ser el cierre:** el modelo banca 8 ventas/mes, la pregunta
+   es si el vendedor las sostiene. El 50% de setup lo incentiva a cazar clientes nuevos.
 
-└─ Comisión (50% setup / 26% recurrente) y precios son perillas ajustables: ver §2 y §5.
+└─ Comisión (50% setup / 25% recurrente) y precios son perillas ajustables: ver §2 y §5.
 
 > Targets y ratios del vendedor: `objetivos-vendedor.md`. Cobros y escalamiento: `proceso-interno.md`.
