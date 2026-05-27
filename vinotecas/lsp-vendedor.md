@@ -45,7 +45,7 @@ Otros costos:
 
 Variables:
 
-└─ **V** = ventas nuevas/mes (escenarios V=4 piso y V=6 estirado)
+└─ **V** = ventas nuevas/mes (escenarios V=4 piso, V=6 medio y V=9 top)
 
 └─ **L** = vida media del cliente en meses (sin dato real; ramp asume L ≥ 12)
 
@@ -53,8 +53,8 @@ Variables:
 
 ## 2. Esquema de comisión escalonada (accelerator)
 
-La comisión premia el cierre y se acelera al cruzar la cuota de 6 ventas/mes. El recurrente
-queda flat para no introducir volatilidad en el ingreso del vendedor ni en tu costo.
+La comisión premia el cierre y se acelera al cruzar las cuotas de 6 y 9 ventas/mes. El
+recurrente queda flat para no introducir volatilidad en el ingreso del vendedor ni en tu costo.
 
 Sobre el monto facturado (bruto):
 
@@ -110,7 +110,7 @@ mercado para roles comerciales). No bajar más sin un vendedor hunter probado.
 
 ---
 
-## 4. Rampa mes a mes — dos escenarios
+## 4. Rampa mes a mes — tres escenarios
 
 Sin churn en los primeros 12 meses. Base de clientes activos = V × mes.
 
@@ -134,7 +134,7 @@ Valores clave:
 
 └─ Mes 12 — dueño **$1.803.000** · vendedor $477.000 (régimen V=4)
 
-### Escenario ESTIRADO — V=6 (tier alto: setup 50%, recurrente 5%)
+### Escenario ESTIRADO — V=6 (tier medio: setup 50%, recurrente 5%)
 
 Base cruza 50 en el mes 9 (base 54) → infra salta a $120k desde ahí.
 
@@ -176,27 +176,33 @@ Valores clave:
 
 └─ Mes 12 — dueño **$3.745.750** · vendedor $1.421.750 (régimen V=9)
 
-### Ganancia del dueño por mes — ambos escenarios
+### Ganancia del dueño por mes — los tres escenarios
+
+Barras en orden V=4 (piso) · V=6 (medio) · V=9 (top); la línea es tu target $1,5M.
 
 ```mermaid
 xychart-beta
-    title "Ganancia del dueño — V=4 piso vs V=6 estirado vs target $1.5M"
+    title "Ganancia del dueño — V=4 vs V=6 vs V=9 vs target $1.5M"
     x-axis "Mes" [1,2,3,4,5,6,7,8,9,10,11,12]
-    y-axis "ARS/mes" 0 --> 2600000
+    y-axis "ARS/mes" 0 --> 3800000
     bar [383450,512500,641550,770600,899650,1028700,1157750,1286800,1415850,1544900,1673950,1803000]
     bar [425175,618750,812325,1005900,1199475,1393050,1586625,1780200,1923775,2117350,2310925,2504500]
+    bar [601763,892125,1182488,1472850,1763213,2003575,2293938,2584300,2874663,3165025,3455388,3745750]
     line [1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000,1500000]
 ```
 
-### Compensación del vendedor por mes — ambos escenarios
+### Compensación del vendedor por mes — los tres escenarios
+
+Barras en orden V=4 (piso) · V=6 (medio) · V=9 (top).
 
 ```mermaid
 xychart-beta
-    title "Comp vendedor — V=4 (tier bajo) vs V=6 (tier alto)"
+    title "Comp vendedor — V=4 vs V=6 vs V=9"
     x-axis "Mes" [1,2,3,4,5,6,7,8,9,10,11,12]
-    y-axis "ARS/mes" 0 --> 1000000
+    y-axis "ARS/mes" 0 --> 1500000
     bar [397250,404500,411750,419000,426250,433500,440750,448000,455250,462500,469750,477000]
     bar [780875,791750,802625,813500,824375,835250,846125,857000,867875,878750,889625,900500]
+    bar [1242313,1258625,1274938,1291250,1307563,1323875,1340188,1356500,1372813,1389125,1405438,1421750]
 ```
 
 ---
@@ -247,21 +253,27 @@ Escenario V=4 (tier bajo): $254.400 + $129.050 × L − (ajuste infra si base �
 
 └─ L = 12m: base 48 (<50 → infra $70k) → dueño **$1.803.000/mes** · vendedor $477.000
 
-└─ L = 24m: base 96 (≥50 → infra $120k) → dueño **$3.298.800/mes** · vendedor $564.000
+└─ L = 24m: base 96 (≥50 → infra $120k) → dueño **$3.301.600/mes** · vendedor $564.000
 
-Escenario V=6 (tier alto): $301.600 + $193.575 × L − infra
+Escenario V=6 (tier medio): $301.600 + $193.575 × L − infra
 
 └─ L = 12m: base 72 (≥50 → infra $120k) → dueño **$2.504.500/mes** · vendedor $900.500
 
-└─ L = 24m: base 144 (≥50 → infra $120k) → dueño **$4.828.000/mes** · vendedor $1.030.500
+└─ L = 24m: base 144 (≥50 → infra $120k) → dueño **$4.827.400/mes** · vendedor $1.031.000
+
+Escenario V=9 (tier alto): $381.400 + $290.362,5 × L − infra
+
+└─ L = 12m: base 108 (≥50 → infra $120k) → dueño **$3.745.750/mes** · vendedor $1.421.750
+
+└─ L = 24m: base 216 (≥50 → infra $120k) → dueño **$7.230.100/mes** · vendedor $1.617.500
 
 **Hallazgo:** incluso el peor escenario (V=4, L=12) deja al dueño en $1,8M — por encima del
 target. El volumen bajo se compensa con un fijo y comisión recortados. Retener sigue rindiendo:
 subir L de 12 a 24 casi duplica tu ganancia.
 
 **Alerta sobre el vendedor:** con recurrente flat 5% el OTE no se dispara con la vida larga
-(a L=24, V=6: ~$1,03M). El esquema escalonado evita la inflación del OTE que tenía el 25%
-recurrente. El riesgo real es el opuesto: que con V=4 sostenido el OTE (~$477k) sea bajo y
+(a L=24, V=6: ~$1,03M). El recurrente flat evita la inflación del OTE que provocaría un
+recurrente alto (p. ej. 25%) sobre una base que crece año a año. El riesgo real es el opuesto: que con V=4 sostenido el OTE (~$477k) sea bajo y
 cueste retener al vendedor — ahí conviene empujar volumen hacia el tier alto.
 
 ---
@@ -274,14 +286,16 @@ cueste retener al vendedor — ahí conviene empujar volumen hacia el tier alto.
 └─ **Tu $1,5M/mes está garantizado al mes 10 incluso con solo 4 ventas/mes** ($1.544.900).
    Con 6 ventas lo cruzás en el mes 7.
 
-└─ **En régimen el dueño retiene $1,8M (V=4) a $2,5M (V=6)** con L=12, ambos por encima del objetivo.
+└─ **En régimen el dueño retiene $1,8M (V=4), $2,5M (V=6) y $3,7M (V=9)** con L=12, todos por
+   encima del objetivo.
 
-└─ **El accelerator es la palanca clave:** premia llegar a 6 ventas sin arriesgar tu piso.
+└─ **El accelerator es la palanca clave:** premia llegar a 6 y 9 ventas sin arriesgar tu piso.
    El recurrente flat mantiene predecible el ingreso del vendedor y tu costo.
 
-└─ **Vigilar:** sandbagging cerca de la cuota de 6, y retención del vendedor si se estanca en
-   V=4 (OTE bajo). El fijo $200k es palanca de contratación; el % de setup, de motivación.
+└─ **Vigilar:** sandbagging cerca de las cuotas de 6 y 9, y retención del vendedor si se estanca
+   en V=4 (OTE bajo). El fijo $200k es palanca de contratación; el % de setup, de motivación.
 
-└─ Rates (recurrente 5%, setup 25%/50%, cuota 6) y precios son perillas ajustables: ver §2 y §5.
+└─ Rates (recurrente 5%, setup 25%/50%/60%, cuotas 6 y 9) y precios son perillas ajustables:
+   ver §2 y §5.
 
 > Targets y ratios del vendedor: `objetivos-vendedor.md`. Cobros y escalamiento: `proceso-interno.md`.
