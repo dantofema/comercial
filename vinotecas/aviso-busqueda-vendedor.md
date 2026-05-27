@@ -2,7 +2,7 @@
 
 Texto listo para pegar en LinkedIn / portal de empleo. LinkedIn NO renderiza markdown:
 usar viñetas `•` con línea en blanco entre cada ítem (no `└─` ni guiones de lista markdown).
-Ejemplos calibrados a 8 ventas/mes (target del rol, `lsp-vendedor.md`).
+Ejemplos calibrados a 8 ventas/mes (tier medio, `lsp-vendedor.md`).
 
 ---
 
@@ -16,13 +16,13 @@ Tu trabajo: contactar vinotecas, mostrarles la demo y cerrar la venta. El proces
 
 💰 Cómo cobrás (fijo + comisión):
 
-• $250.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
+• $200.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
 
-• + $95.000 por cada cliente nuevo que cerrás (comisión del setup)
+• + comisión por cada cliente nuevo que cerrás, que sube con tu volumen del mes: $47.500 (hasta 5 ventas) → $95.000 (6 a 8 ventas) → $114.000 (9 o más). Cuanto más cerrás, más vale cada venta
 
-• + $9.000 por mes por cada cliente activo que trajiste — se acumula: cuantos más clientes sumás, más cobra tu base mes a mes
+• + $1.812 por mes por cada cliente activo que trajiste — se acumula: cuantos más clientes sumás, más cobra tu base mes a mes
 
-📈 Ejemplo: cerrás 8 clientes en el mes → $250.000 fijo + $760.000 de comisión = $1.010.000 ese mes, y seguís cobrando el recurrente de esos clientes los meses siguientes.
+📈 Ejemplo: cerrás 8 clientes en el mes → $200.000 fijo + 8 × $95.000 = $760.000 de comisión = $960.000 ese mes, y seguís cobrando el recurrente de esos clientes los meses siguientes.
 
 ✅ Buscamos:
 
@@ -62,15 +62,15 @@ No arrancás de cero: el proceso de venta, los speeches, las respuestas a objeci
 
 💰 Cómo cobrás (fijo + comisión):
 
-• $250.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
+• $200.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
 
-• + $95.000 por cada cliente nuevo que cerrás (comisión sobre el setup)
+• + comisión por cliente nuevo que cerrás, escalonada según tu volumen del mes: $47.500 (hasta 5 ventas), $95.000 (6 a 8 ventas) y $114.000 (9 o más). Premia los meses fuertes: cuanto más cerrás, más vale cada cierre
 
-• + $9.000 por mes por cada cliente activo que trajiste
+• + $1.812 por mes por cada cliente activo que trajiste
 
 La comisión recurrente se acumula: cada cliente que sumás te paga todos los meses mientras siga activo. Cuantos más clientes traés, más alta es tu base mes a mes, sin tener que volver a venderles.
 
-📈 Ejemplo concreto: si cerrás 8 clientes en un mes, ese mes cobrás $250.000 de fijo + $760.000 de comisión = $1.010.000. Y los meses siguientes seguís cobrando el recurrente de esos 8 clientes, mientras sumás los nuevos que vayas cerrando.
+📈 Ejemplo concreto: si cerrás 8 clientes en un mes, ese mes cobrás $200.000 de fijo + 8 × $95.000 = $760.000 de comisión = $960.000. Y los meses siguientes seguís cobrando el recurrente de esos 8 clientes, mientras sumás los nuevos que vayas cerrando.
 
 ✅ Buscamos a alguien con:
 
@@ -100,5 +100,5 @@ Importante: es una relación comercial bajo monotributo, no una relación de dep
 
 Notas:
 - Viñetas `•` con línea en blanco entre cada ítem — así se ven separadas en el `.md` y al pegar en LinkedIn.
-- $95.000 = 50% del setup ($190.000). $9.000 ≈ 25% del mensual ($36.250).
-- Ejemplo a 8 ventas = target del rol (`lsp-vendedor.md`). No incluye el recurrente acumulado, que se suma aparte.
+- Setup escalonado sobre $190.000: 25% = $47.500 (<6), 50% = $95.000 (6–8), 60% = $114.000 (≥9). $1.812,50 = 5% del mensual ($36.250).
+- Ejemplo a 8 ventas = tier medio (`lsp-vendedor.md`). No incluye el recurrente acumulado, que se suma aparte.
