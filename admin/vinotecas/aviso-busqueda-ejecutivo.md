@@ -1,4 +1,4 @@
-# Aviso de búsqueda — Vendedor/a (LinkedIn)
+# Aviso de búsqueda — Ejecutivo/a de cuentas (LinkedIn)
 
 Texto listo para pegar en LinkedIn / portal de empleo. LinkedIn NO renderiza markdown:
 usar viñetas `•` con línea en blanco entre cada ítem (no `└─` ni guiones de lista markdown).
@@ -8,7 +8,7 @@ Ejemplos calibrados a 8 ventas/mes (tier medio, `lsp-ejecutivo.md`).
 
 ## Versión corta
 
-🍷 Buscamos Vendedor/a — Venta 100% remota (Monotributista)
+🍷 Buscamos Ejecutivo/a de cuentas — Venta 100% remota (Monotributista)
 
 Software de venta online para vinotecas. Vendés por teléfono, WhatsApp y email, desde tu casa, a clientes de toda Argentina. No salís a la calle.
 
@@ -16,7 +16,7 @@ Tu trabajo: contactar vinotecas, mostrarles la demo y cerrar la venta. El proces
 
 💰 Cómo cobrás (fijo + comisión):
 
-• $200.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
+• $200.000 fijos por mes. A cambio, esperamos un piso de actividad: 100 intentos de llamada por día (leads nuevos + seguimientos)
 
 • + comisión por cada cliente nuevo que cerrás, que sube con tu volumen del mes: $47.500 (hasta 5 ventas) → $95.000 (6 a 8 ventas) → $114.000 (9 o más). Cuanto más cerrás, más vale cada venta
 
@@ -42,9 +42,9 @@ Es relación comercial bajo monotributo, no relación de dependencia. 100% remot
 
 ## Versión larga
 
-🍷 Buscamos Vendedor/a Comercial — Venta 100% remota (Monotributista)
+🍷 Buscamos Ejecutivo/a de cuentas Comercial — Venta 100% remota (Monotributista)
 
-En Dantofema desarrollamos Andes, una plataforma de venta online pensada para vinotecas: tienda propia, catálogo de vinos cargado con fotos, dominio y todo listo para vender por internet en 24 horas. Estamos sumando un/a vendedor/a para llevar el producto a vinotecas de todo el país.
+En Dantofema desarrollamos Andes, una plataforma de venta online pensada para vinotecas: tienda propia, catálogo de vinos cargado con fotos, dominio y todo listo para vender por internet en 24 horas. Estamos sumando un/a ejecutivo/a de cuentas para llevar el producto a vinotecas de todo el país.
 
 Es un rol 100% remoto. Trabajás desde tu casa, por teléfono, WhatsApp y email. No salís a la calle ni visitás clientes.
 
@@ -62,7 +62,7 @@ No arrancás de cero: el proceso de venta, los speeches, las respuestas a objeci
 
 💰 Cómo cobrás (fijo + comisión):
 
-• $200.000 fijos por mes. A cambio, esperamos un piso de actividad: 50 intentos de llamada por día (leads nuevos + seguimientos)
+• $200.000 fijos por mes. A cambio, esperamos un piso de actividad: 100 intentos de llamada por día (leads nuevos + seguimientos)
 
 • + comisión por cliente nuevo que cerrás, escalonada según tu volumen del mes: $47.500 (hasta 5 ventas), $95.000 (6 a 8 ventas) y $114.000 (9 o más). Premia los meses fuertes: cuanto más cerrás, más vale cada cierre
 
