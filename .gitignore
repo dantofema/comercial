@@ -1,2 +1,5 @@
 
 .superpowers/
+brand/_fonts/
+node_modules/
+package-lock.json
