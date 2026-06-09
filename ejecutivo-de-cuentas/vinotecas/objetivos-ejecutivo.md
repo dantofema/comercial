@@ -1,8 +1,8 @@
 # Objetivos del vendedor — Andes para Vinotecas
 
-Métricas y criterios de éxito del rol comercial. No repite contenido de `../vinotecas/playbook-vendedor.md`, `../vinotecas/objeciones.md`, `../vinotecas/faq.md` ni `../vinotecas/speeches/`.
+Métricas y criterios de éxito del rol comercial. No repite contenido de `playbook-ejecutivo.md`, `objeciones.md`, `faq.md` ni `speeches/`.
 
-**Cómo se usa este doc:** los objetivos diarios se chequean en el daily (`reuniones.md` §1). Los semanales y los ratios se revisan en el 1:1 del lunes (`reuniones.md` §2).
+**Cómo se usa este doc:** los objetivos diarios se chequean en el daily (`../reuniones.md` §1). Los semanales y los ratios se revisan en el 1:1 del lunes (`../reuniones.md` §2).
 
 ---
 

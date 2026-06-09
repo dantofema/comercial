@@ -2,7 +2,7 @@
 
 Texto listo para pegar en LinkedIn / portal de empleo. LinkedIn NO renderiza markdown:
 usar viñetas `•` con línea en blanco entre cada ítem (no `└─` ni guiones de lista markdown).
-Ejemplos calibrados a 8 ventas/mes (tier medio, `lsp-vendedor.md`).
+Ejemplos calibrados a 8 ventas/mes (tier medio, `lsp-ejecutivo.md`).
 
 ---
 
@@ -101,4 +101,4 @@ Importante: es una relación comercial bajo monotributo, no una relación de dep
 Notas:
 - Viñetas `•` con línea en blanco entre cada ítem — así se ven separadas en el `.md` y al pegar en LinkedIn.
 - Setup escalonado sobre $190.000: 25% = $47.500 (<6), 50% = $95.000 (6–8), 60% = $114.000 (≥9). $1.812,50 = 5% del mensual ($36.250).
-- Ejemplo a 8 ventas = tier medio (`lsp-vendedor.md`). No incluye el recurrente acumulado, que se suma aparte.
+- Ejemplo a 8 ventas = tier medio (`lsp-ejecutivo.md`). No incluye el recurrente acumulado, que se suma aparte.

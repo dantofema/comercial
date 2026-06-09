@@ -4,7 +4,7 @@ Documentación orientada a venta del vertical vinotecas.
 
 ## Orden de lectura sugerido (vendedor nuevo)
 
-1. `playbook-vendedor.md` — manual narrativo, leer 1 vez de punta a punta
+1. `playbook-ejecutivo.md` — manual narrativo, leer 1 vez de punta a punta
 2. `ficha-producto.md` — 1 pager de referencia rápida (precio, qué incluye)
 3. `faq.md` — 9 preguntas reales con respuestas listas
 4. `objeciones.md` — rebates frase por frase para llamada
@@ -13,8 +13,8 @@ Documentación orientada a venta del vertical vinotecas.
 7. `speeches/03-llamada-cierre.md` — segunda llamada y cierre
 8. `speeches/04-onboarding.md` — qué pedir al cliente después del pago
 9. `proceso-interno.md` — cobros, comisión, escalamiento (vos + dueño)
-10. `../ejecutivo-de-cuentas/reuniones.md` — daily, 1:1 semanal y debrief post-venta
-11. `../ejecutivo-de-cuentas/objetivos-vendedor.md` — métricas diarias/semanales, pipeline, ratios y criterio de éxito
+10. `../reuniones.md` — daily, 1:1 semanal y debrief post-venta
+11. `objetivos-ejecutivo.md` — métricas diarias/semanales, pipeline, ratios y criterio de éxito
 
 ## Links clave
 

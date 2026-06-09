@@ -33,7 +33,7 @@ Canal: WhatsApp directo al dueño.
 
 ## Cuándo escalar al dueño
 
-Ver sección 9 del `playbook-vendedor.md`. Resumen:
+Ver sección 9 del `playbook-ejecutivo.md`. Resumen:
 
 └─ Cotizaciones (stock, envíos, pagos online, ERP)
 

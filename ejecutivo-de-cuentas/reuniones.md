@@ -10,7 +10,7 @@ Tres ritmos de trabajo, simples. No hace falta saber de metodologías. La idea: 
 **Dónde:** videollamada o llamada conmigo.
 **Cuánto te lleva:** 5 minutos.
 
-**Objetivos de referencia:** los números de ayer y los de hoy se comparan contra los objetivos diarios definidos en `objetivos-vendedor.md` §2. Si quedaste corto, lo decís en el daily — sin justificarte de más.
+**Objetivos de referencia:** los números de ayer y los de hoy se comparan contra los objetivos diarios definidos en `vinotecas/objetivos-ejecutivo.md` §2. Si quedaste corto, lo decís en el daily — sin justificarte de más.
 
 **Plantilla (copiás y completás):**
 

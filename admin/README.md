@@ -2,8 +2,9 @@
 
 Material interno. **NO se comparte con el ejecutivo de cuentas.**
 
-## Contenido
+## Por producto
 
-- `lsp-vendedor.md` — unit economics del rol: modelo fijo + comisión escalonada, rentabilidad
-- `aviso-busqueda-vendedor.md` — texto de búsqueda para LinkedIn / portal de empleo
-- `guia-entrevista-15min.md` — guía de entrevista para la contratación
+- `vinotecas/` — interno del vertical vinotecas:
+  - `vinotecas/lsp-ejecutivo.md` — unit economics del rol: fijo + comisión escalonada, rentabilidad
+  - `vinotecas/aviso-busqueda-ejecutivo.md` — texto de búsqueda para LinkedIn / portal de empleo
+  - `vinotecas/guia-entrevista-15min.md` — guía de entrevista para la contratación
