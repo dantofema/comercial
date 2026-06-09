@@ -4,11 +4,11 @@ Tres ritmos de trabajo, simples. No hace falta saber de metodologías. La idea: 
 
 ---
 
-## 1. Daily — todos los días (async por WhatsApp)
+## 1. Daily — todos los días (en vivo, 9:00)
 
-**Cuándo:** todos los días hábiles, antes de las 11:00.
-**Dónde:** WhatsApp, al grupo o chat directo conmigo.
-**Cuánto te lleva:** 2 minutos.
+**Cuándo:** todos los días hábiles, **9:00 en punto**.
+**Dónde:** videollamada o llamada conmigo.
+**Cuánto te lleva:** 5 minutos.
 
 **Objetivos de referencia:** los números de ayer y los de hoy se comparan contra los objetivos diarios definidos en `objetivos-vendedor.md` §2. Si quedaste corto, lo decís en el daily — sin justificarte de más.
 
@@ -25,7 +25,7 @@ Daily [fecha]
 
 ```
 Daily 21/04
-- Ayer: 28 llamadas (obj 25-50), 8 conversaciones (obj 6-13), 4 demos (obj 4-6), 1 cierre agendado jueves
+- Ayer: 96 llamadas (obj 100), 14 conversaciones (obj 12-18), 7 demos (obj 6-9), 1 cierre agendado jueves
 - Hoy: 20 leads nuevos de Córdoba, apuntar 5 demos, cierre con La Cava 16hs
 - Bloqueos: el cliente de Rosario pide factura A, ¿cómo lo manejamos?
 ```
@@ -104,7 +104,7 @@ Rechazo [nombre vinoteca] — [fecha]
 ## Resumen rápido
 
 ```
-Daily       → WA, todos los días, 2min, ayer/hoy/bloqueos
+Daily       → en vivo 9:00, todos los días, 5min, ayer/hoy/bloqueos
 1:1 lunes   → llamada, 15min, semana pasada + planning + temas
 Debrief     → WA/mail, cada cierre o rechazo importante, 5min
 ```

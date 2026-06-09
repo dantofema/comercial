@@ -1,6 +1,6 @@
 # Objetivos del vendedor — Andes para Vinotecas
 
-Métricas y criterios de éxito del rol comercial. No repite contenido de `playbook-vendedor.md`, `objeciones.md`, `faq.md` ni `speeches/`.
+Métricas y criterios de éxito del rol comercial. No repite contenido de `../vinotecas/playbook-vendedor.md`, `../vinotecas/objeciones.md`, `../vinotecas/faq.md` ni `../vinotecas/speeches/`.
 
 **Cómo se usa este doc:** los objetivos diarios se chequean en el daily (`reuniones.md` §1). Los semanales y los ratios se revisan en el 1:1 del lunes (`reuniones.md` §2).
 
@@ -24,7 +24,7 @@ Piso y techo por día hábil. Se reportan en el daily.
 
 └─ Leads nuevos contactados: **30 a 45**
 
-└─ Intentos de llamada: **50 a 70** (50 es el piso que sostiene el fijo de $250.000)
+└─ Intentos de llamada: **100** (piso firme que sostiene el fijo de $200.000)
 
 └─ Conversaciones reales: **12 a 18**
 
@@ -46,7 +46,7 @@ Sin estas definiciones los números no son comparables entre días.
 
 └─ No cuenta: re-contactar un lead que ya está en pipeline (eso es seguimiento), lead extraído de Google Maps pero no contactado todavía, segundo intento al mismo lead el mismo día.
 
-**Intentos de llamada (50 a 70)**
+**Intentos de llamada (100)**
 
 └─ Cuenta: llamada saliente que efectivamente discó y sonó al menos una vez, sin importar el resultado (no atendieron, ocupado, buzón, atendió empleado).
 

@@ -298,4 +298,4 @@ cueste retener al vendedor — ahí conviene empujar volumen hacia el tier alto.
 └─ Rates (recurrente 5%, setup 25%/50%/60%, cuotas 6 y 9) y precios son perillas ajustables:
    ver §2 y §5.
 
-> Targets y ratios del vendedor: `objetivos-vendedor.md`. Cobros y escalamiento: `proceso-interno.md`.
+> Targets y ratios del vendedor: `../ejecutivo-de-cuentas/objetivos-vendedor.md`. Cobros y escalamiento: `../vinotecas/proceso-interno.md`.
