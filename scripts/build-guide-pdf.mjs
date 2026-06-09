@@ -5,7 +5,10 @@ import { resolve } from 'node:path';
 const html = resolve('brand/guide/brand-guide.html');
 execFileSync('google-chrome', [
   '--headless=old',
+  '--no-sandbox',
   '--no-pdf-header-footer',
+  // espera a que @import de Google Fonts (Nunito/Inter) cargue antes de imprimir
+  '--virtual-time-budget=5000',
   '--print-to-pdf=brand/guide/brand-guide.pdf',
   `file://${html}`,
 ], { stdio: 'inherit' });
