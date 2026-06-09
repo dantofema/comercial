@@ -9,7 +9,7 @@ Se manda inmediatamente después de la llamada 1. Mensaje breve, link a demo, ag
 Copiar, reemplazar `[NOMBRE]` y `[DIA + HORA]`:
 
 ```
-Hola [NOMBRE], soy [VENDEDOR] de Andes para Vinotecas.
+Hola [NOMBRE], soy [TU NOMBRE] de Andes para Vinotecas.
 
 Como charlamos, te paso la demo para que la mires tranquilo:
 
@@ -42,7 +42,7 @@ Demo Andes para Vinotecas — [nombre vinoteca]
 ```
 Hola [NOMBRE],
 
-Soy [VENDEDOR] de Andes. Como charlamos por teléfono, te paso la demo de tienda online para vinotecas para que la veas tranquilo.
+Soy [TU NOMBRE] de Andes. Como charlamos por teléfono, te paso la demo de tienda online para vinotecas para que la veas tranquilo.
 
 Demo en vivo: https://demo-vinoteca.dantofema.ar
 Info del servicio: https://dantofema.ar/vinotecas
@@ -66,7 +66,7 @@ Te llamo el [DIA] a las [HORA] para ver qué te pareció.
 Cualquier duda, me escribís.
 
 Saludos,
-[VENDEDOR]
+[TU NOMBRE]
 [WhatsApp]
 ```
 

@@ -8,7 +8,7 @@ Segunda llamada. Objetivo: cierre. Si hay objeción, resolver con `objeciones.md
 
 Hola [NOMBRE], ¿cómo estás?
 
-Soy [VENDEDOR], te llamo nuevamente por la tienda online para la vinoteca. La otra vez te pasé la demo por WhatsApp.
+Soy [TU NOMBRE], te llamo nuevamente por la tienda online para la vinoteca. La otra vez te pasé la demo por WhatsApp.
 
 ¿Pudiste verla?
 

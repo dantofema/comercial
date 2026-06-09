@@ -1,4 +1,4 @@
-# Guía de entrevista — Vendedor/a (15 minutos)
+# Guía de entrevista — Ejecutivo/a de cuentas (15 minutos)
 
 Entrevista telefónica o videollamada. Objetivo: filtrar rápido por **constancia, experiencia real en venta remota y fit con un rol de proceso diario** (no de picos). El producto y el material ya están armados; lo que se contrata es disciplina de pipeline + capacidad de cerrar por teléfono.
 
@@ -32,7 +32,7 @@ Reglas del entrevistador:
 
 Setear expectativa real para que el candidato se autofiltre.
 
-> "Gracias por el tiempo. Te cuento en 30 segundos y después te escucho. Es venta 100% remota desde tu casa: vendés un software para vinotecas por teléfono, WhatsApp y email a clientes de todo el país. No salís a la calle. El proceso, los speeches y el material ya están armados. Es un rol de **proceso diario**: el piso es alrededor de 50 intentos de llamada por día. Es relación comercial bajo monotributo, fijo más comisión. ¿Hasta acá te cierra?"
+> "Gracias por el tiempo. Te cuento en 30 segundos y después te escucho. Es venta 100% remota desde tu casa: vendés un software para vinotecas por teléfono, WhatsApp y email a clientes de todo el país. No salís a la calle. El proceso, los speeches y el material ya están armados. Es un rol de **proceso diario**: el piso es de 100 intentos de llamada por día. Es relación comercial bajo monotributo, fijo más comisión. ¿Hasta acá te cierra?"
 
 Escuchar: ¿reacciona bien al volumen diario? ¿pregunta algo inteligente o solo asiente?
 
@@ -56,7 +56,7 @@ Buscar: números concretos de actividad diaria, comodidad con outbound en frío,
 
 El predictor más fuerte del éxito en este rol. Cavar acá.
 
-└─ "Un día hacés 50 llamadas y 45 te dicen que no o no atienden. ¿Cómo encarás la llamada 46?"
+└─ "Un día hacés 100 llamadas y 90 te dicen que no o no atienden. ¿Cómo encarás la llamada 91?"
 
 └─ "¿Cómo arrancás tu día de trabajo cuando nadie te está mirando? Describime tu rutina."
 

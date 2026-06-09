@@ -1,4 +1,4 @@
-# Objetivos del vendedor — Andes para Vinotecas
+# Objetivos del ejecutivo de cuentas — Andes para Vinotecas
 
 Métricas y criterios de éxito del rol comercial. No repite contenido de `playbook-ejecutivo.md`, `objeciones.md`, `faq.md` ni `speeches/`.
 

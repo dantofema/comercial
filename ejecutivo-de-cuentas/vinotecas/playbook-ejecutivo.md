@@ -1,4 +1,4 @@
-# Playbook del vendedor — Andes para Vinotecas
+# Playbook del ejecutivo de cuentas — Andes para Vinotecas
 
 Leer completo una vez antes de la primera llamada. Después consultás las referencias (`ficha-producto.md`, `faq.md`, `objeciones.md`) durante el día.
 
@@ -51,7 +51,15 @@ Tres puntos, en este orden de importancia:
 
 ## 6. Cómo cobrás vos
 
-**Comisión: $125.000 por venta cerrada.**
+**Comisión escalonada según tus ventas del mes:**
+
+└─ hasta 5 ventas → **$47.500** por venta
+
+└─ de 6 a 8 ventas → **$95.000** por venta
+
+└─ de 9 en adelante → **$114.000** por venta
+
+Además, **recurrente: $1.812/mes** por cada cliente activo que trajiste, mientras siga activo.
 
 Se paga cuando el cliente **pagó el setup Y se suscribió al plan mensual** en Mercado Pago. Ambas condiciones cumplidas = comisión liquidada. Acuerdo verbal solo no dispara comisión.
 
