@@ -46,12 +46,19 @@ pero confiable. Transmite alivio ("no te tenés que complicar"), no tecnicismo.
 
 ## 5. Logo
 
-**Logo principal:** wordmark `listto` en minúscula. Las dos "t" se fusionan en un
-**check (✓)** coral — "Listto" literalmente dice ✓ (hecho / listo).
+**Logo principal:** wordmark `listto` en minúscula (Nunito ExtraBold), con un
+**check (✓)** coral de acento flotando sobre las dos "tt" — la palabra se lee
+completa y el ✓ refuerza el significado "hecho / listo".
 
-- Construcción: trazo del check con remates redondeados (`stroke-linecap:round`),
-  grosor consistente con el peso Nunito 800. El ✓ ocupa el lugar de las dos "t".
-- **Versión sobre coral:** check en blanco. **Versión sobre tinta:** check en ámbar.
+- Construcción: la palabra se outlinea a paths (sin dependencia de fuente); el check
+  es un trazo con remates redondeados (`stroke-linecap:round`) sobre las "tt".
+  Generado por `scripts/build-wordmark.mjs`.
+- **Versión sobre coral:** letras y check en blanco. **Versión sobre tinta:** letras
+  crema, check en ámbar.
+
+> Nota de diseño: la idea original era fusionar las dos "t" en el check; al ejecutarla
+> se leía "lis✓o" (palabra ilegible), por lo que se adoptó el check como acento sobre
+> la palabra completa, conservando el motivo ✓ sin sacrificar legibilidad.
 
 **Versión reducida / ícono:** burbuja cuadrada de esquinas redondeadas (radius ~24%)
 en coral con ✓ blanco centrado. Uso: favicon, perfil de Instagram, ícono de app,
