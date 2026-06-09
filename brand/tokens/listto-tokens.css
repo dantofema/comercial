@@ -1,0 +1,41 @@
+/* Listto — design tokens. Fuente de verdad de color y tipografía. */
+:root {
+  /* Marca */
+  --listto-coral: #FF6B4A;
+  --listto-amber: #FFB23E;
+  --listto-ink:   #2B2622;
+  --listto-cream: #FFF7F0;
+
+  /* Neutros */
+  --listto-white:   #FFFFFF;
+  --listto-cream-2: #F2ECE6;
+  --listto-border:  #D8D0C8;
+  --listto-gray:    #8C837B;
+
+  /* Semánticos */
+  --listto-success: #2FA36B;
+  --listto-warning: #E8A33D;
+  --listto-error:   #D6453D;
+
+  /* Tipografía */
+  --listto-font-display: 'Nunito', system-ui, sans-serif;
+  --listto-font-body: 'Inter', system-ui, sans-serif;
+
+  /* Escala (px) */
+  --listto-size-display: 46px;
+  --listto-size-h1: 30px;
+  --listto-size-h2: 21px;
+  --listto-size-body: 15px;
+  --listto-size-caption: 12px;
+
+  /* Pesos */
+  --listto-weight-display: 900;
+  --listto-weight-h1: 800;
+  --listto-weight-h2: 700;
+  --listto-weight-body: 400;
+  --listto-weight-emphasis: 600;
+
+  /* Radios / botones */
+  --listto-radius-btn: 11px;
+  --listto-radius-card: 16px;
+}
