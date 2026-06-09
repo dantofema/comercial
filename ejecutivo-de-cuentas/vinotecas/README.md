@@ -12,9 +12,10 @@ Documentación orientada a venta del vertical vinotecas.
 6. `speeches/02-envio-demo.md` — textos para WhatsApp y email
 7. `speeches/03-llamada-cierre.md` — segunda llamada y cierre
 8. `speeches/04-onboarding.md` — qué pedir al cliente después del pago
-9. `proceso-interno.md` — cobros, comisión, escalamiento (vos + dueño)
-10. `../reuniones.md` — daily, 1:1 semanal y debrief post-venta
-11. `objetivos-ejecutivo.md` — métricas diarias/semanales, pipeline, ratios y criterio de éxito
+9. `speeches/05-informe-pre-arranque.md` — bienvenida al vendedor: condiciones reales antes del primer día
+10. `proceso-interno.md` — cobros, comisión, escalamiento (vos + dueño)
+11. `../reuniones.md` — daily, 1:1 semanal y debrief post-venta
+12. `objetivos-ejecutivo.md` — métricas diarias/semanales, pipeline, ratios y criterio de éxito
 
 ## Links clave
 
