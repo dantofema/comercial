@@ -13,7 +13,7 @@ dueño está **garantizado al mes 10 incluso en el peor volumen sostenido (4 ven
 
 ## 1. Supuestos e inputs
 
-Precios (`README.md`):
+Precios (`../../ejecutivo-de-cuentas/vinotecas/README.md`):
 
 └─ Setup único: $190.000
 
@@ -298,4 +298,4 @@ cueste retener al vendedor — ahí conviene empujar volumen hacia el tier alto.
 └─ Rates (recurrente 5%, setup 25%/50%/60%, cuotas 6 y 9) y precios son perillas ajustables:
    ver §2 y §5.
 
-> Targets y ratios del vendedor: `objetivos-vendedor.md`. Cobros y escalamiento: `proceso-interno.md`.
+> Targets y ratios del vendedor: `../../ejecutivo-de-cuentas/vinotecas/objetivos-ejecutivo.md`. Cobros y escalamiento: `../../ejecutivo-de-cuentas/vinotecas/proceso-interno.md`.
